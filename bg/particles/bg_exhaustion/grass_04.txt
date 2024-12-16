@@ -1,0 +1,8 @@
+texture particles/realgras06.tga
+scale 26
+leaning_max 100
+leaning_min 80
+wave_speed 16
+particles 20
+lod 1
+transparency 255

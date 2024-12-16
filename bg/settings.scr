@@ -1,0 +1,244 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// Multiplayer options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Fri Aug 06 10:36:03 AM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION SERVER_OPTIONS
+{
+	"hostname"
+	{
+		"#Valve_Hostname"
+		{ STRING }
+		{ "BG Server 1.0F" }
+	}
+
+	"maxplayers"
+	{
+		"#Valve_Max_Players"
+		{ NUMBER 1.000000 32.000000 }
+		{ "32.000000" }
+	}
+
+	"sv_password"
+	{
+		"#Valve_Server_Password"
+		{ STRING }
+		{ "" }
+	}
+
+	"sv_lan"
+	{
+		"Lan Game"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"mp_roundtime"
+	{
+		"Round length (Seconds)"
+		{ NUMBER -1.000000 -1.000000 }
+		{ "15.000000" }
+	}
+
+	"mp_pausetime"
+	{
+		"Pause time (Seconds)"
+		{ NUMBER -1.000000 -1.000000 }
+		{ "3.000000" }
+	}
+
+	"mp_roundlimit"
+	{
+		"Round Limit"
+		{ NUMBER -1.000000 -1.000000 }
+		{ "0.000000" }
+	}
+
+	"mp_timelimit"
+	{
+		"Time Limit (Minutes)"
+		{ NUMBER -1.000000 -1.000000 }
+		{ "30.000000" }
+	}
+
+	"mp_respawnstyle"
+	{
+		"Respawn Style"
+		{
+			LIST
+			"Whole team" "0"
+			"Dead only" "1"
+		}
+		{ "1.000000" }
+	}
+
+	"mp_autoteambalance"
+	{
+		"Keep Teams Equal"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"mp_limitteams"
+	{
+		"Max. Player Difference"
+		{ NUMBER -1.000000 -1.000000 }
+		{ "2.000000" }
+	}
+
+	"mp_winbonus"
+	{
+		"Win Bonus Points"
+		{ NUMBER -1.000000 -1.000000 }
+		{ "300.000000" }
+	}
+
+	"mp_friendlyfire"
+	{
+		"Friendly Fire"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"mp_meleeonly"
+	{
+		"Melee only Mode"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"mp_stationaryreload"
+	{
+		"Stationary Reload"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"sv_sendvelocity"
+	{
+		"Low ping server physics"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"mp_limit_light_b"
+	{
+		"British Com. Limit"
+		{
+			LIST
+			"none" "-1"
+			"1" "1"
+			"2" "2"
+			"3" "3"
+			"4" "4"
+		}
+		{ "-1.000000" }
+	}
+
+	"mp_limit_medium_b"
+	{
+		"Royal Inf. Limit"
+		{
+			LIST
+			"none" "-1"
+			"1" "1"
+			"2" "2"
+			"3" "3"
+			"4" "4"
+		}
+		{ "-1.000000" }
+	}
+
+	"mp_limit_heavy_b"
+	{
+		"Loyalist Limit"
+		{
+			LIST
+			"none" "-1"
+			"1" "1"
+			"2" "2"
+			"3" "3"
+			"4" "4"
+		}
+		{ "2.000000" }
+	}
+
+	"mp_limit_light_a"
+	{
+		"American Com. Limit"
+		{
+			LIST
+			"none" "-1"
+			"1" "1"
+			"2" "2"
+			"3" "3"
+			"4" "4"
+		}
+		{ "-1.000000" }
+	}
+
+	"mp_limit_medium_a"
+	{
+		"Minutemen Limit"
+		{
+			LIST
+			"none" "-1"
+			"1" "1"
+			"2" "2"
+			"3" "3"
+			"4" "4"
+		}
+		{ "2.000000" }
+	}
+
+	"mp_limit_heavy_a"
+	{
+		"Continental Limit"
+		{
+			LIST
+			"none" "-1"
+			"1" "1"
+			"2" "2"
+			"3" "3"
+			"4" "4"
+		}
+		{ "-1.000000" }
+	}
+
+}

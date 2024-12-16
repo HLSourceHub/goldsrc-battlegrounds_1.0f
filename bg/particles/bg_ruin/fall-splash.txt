@@ -1,0 +1,33 @@
+starting_particles 0
+new_particles_per_second 0
+scale 3.0
+texture particles/ripples01.tga
+lifetime 2.7
+lifetime_var 0.5
+gravity 0
+growth 2.0
+damping 0.0
+
+rotation_speed 20
+
+starting_velocity_x 0
+starting_velocity_y 0
+starting_velocity_z 0
+
+velocity_var_x 0.0
+velocity_var_y 0.0
+velocity_var_z 0.0
+
+display_mode 24
+transparency 240
+system_life -1
+
+emitter_shape plane
+plane_x_length 20
+plane_y_length 500
+
+collision off
+fade_out 1
+fade_in 1
+wind 0
+particle_align planar

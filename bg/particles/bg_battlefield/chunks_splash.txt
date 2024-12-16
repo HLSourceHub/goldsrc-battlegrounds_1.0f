@@ -1,0 +1,30 @@
+starting_particles 3
+new_particles_per_second 0
+texture particles/brownsmoke.tga
+scale 0.5
+lifetime 3
+gravity 0
+growth 0.4
+rotation_speed 10
+
+starting_velocity_x -0.0
+starting_velocity_y -0.0
+starting_velocity_z 0
+
+velocity_var_x 1
+velocity_var_y 1
+velocity_var_z 1
+damping 0.5
+
+transparency 120
+system_life 5
+
+emitter_shape point
+
+collision bounce
+fade_out 1
+fade_in 0
+wind 0
+smoke 0
+light_check once
+

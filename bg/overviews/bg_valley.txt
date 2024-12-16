@@ -1,0 +1,14 @@
+// overview description file for bg_valley
+
+global 
+{
+	ZOOM	1.09
+	ORIGIN  833.43 -62.63 -309.50
+	ROTATED 1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_valley.bmp"
+	HEIGHT	-1016.00
+}

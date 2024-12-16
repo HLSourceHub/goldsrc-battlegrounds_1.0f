@@ -1,0 +1,30 @@
+starting_particles 22
+new_particles_per_second 1.7
+scale 3
+texture particles/mist03.tga
+lifetime 20
+gravity 0
+growth 0.3
+damping 0
+smoke 1
+
+starting_velocity_x 0.0
+starting_velocity_y 0.0
+starting_velocity_z 0.0
+
+velocity_var_x 0.15
+velocity_var_y 0.15
+velocity_var_z 0.0
+
+transparency 200
+system_life -1
+
+emitter_shape plane
+plane_x_length 1280
+plane_y_length 2048
+
+collision off
+fade_out 1
+fade_in 1
+wind 0
+light_check every_sort

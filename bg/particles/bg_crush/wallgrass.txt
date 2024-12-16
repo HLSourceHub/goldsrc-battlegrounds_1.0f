@@ -1,0 +1,20 @@
+new_particle
+texture particles/longgrass02.tga
+scale 20.0
+leaning_max 65.0
+leaning_min 110.0
+wave_speed 20
+particles 25
+transparency 255
+lod 1
+
+
+new_particle
+texture particles/longgrass04.tga
+scale 20.0
+leaning_max 65.0
+leaning_min 110.0
+wave_speed 20
+particles 25
+transparency 255
+lod 1

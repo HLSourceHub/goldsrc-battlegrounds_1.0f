@@ -1,0 +1,17 @@
+texture particles/realgras02.tga
+scale 18
+leaning_min 60.0
+leaning_max 90
+wave_speed 2.0
+particles 40
+transparency 255
+
+new_particle
+texture particles/realgras04.tga
+scale 15
+leaning_min 60.0
+leaning_max 90
+wave_speed 2.0
+particles 40
+transparency 255
+

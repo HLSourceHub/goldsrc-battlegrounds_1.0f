@@ -1,0 +1,558 @@
+// Team and class menu texts
+Menu_OK
+{
+Ok
+}
+
+Menu_Cancel
+{
+Cancel
+}
+
+Team_AutoAssign
+{
+Auto Assign
+}
+
+Title_SelectYourTeam
+{
+Select your allegiances
+}
+
+Map_Description_not_available
+{
+Map Description not available.
+}
+
+// Scoreboard
+CLASS
+{
+Class
+}
+
+SCORE
+{
+Score
+}
+
+DEATHS
+{
+Deaths
+}
+
+DEAD
+{
+Dead?
+}
+
+LATENCY
+{
+Ping
+}
+
+VOICE
+{
+Has Voice?
+}
+
+DAMAGE
+{
+Damage you Dealt
+}
+
+LAST_DAMAGE
+{
+Last Hits Damage
+}
+
+CAPTURES
+{
+Capture Points
+}
+
+Player
+{
+Player
+}
+
+Player_plural
+{
+Players
+}
+
+Spectators
+{
+Spectators
+}
+
+Unmuted
+{
+Un-Muted
+}
+
+Muted
+{
+Muted
+}
+
+No_longer_hear_that_player
+{
+You will no longer hear that player speak.
+}
+
+// Spectator text
+Spec_Mode1
+{
+Locked Chase-Camera
+}
+
+Spec_Mode2
+{
+Free Chase-Camera
+}
+
+Spec_Mode3
+{
+Free-Look
+}
+
+Spec_Mode4
+{
+First Person
+}
+
+Spec_Mode5
+{
+Free Map Overview
+}
+
+Spec_Mode6
+{
+Chase Map Overview
+}
+
+Spec_NoTarget
+{
+No available targets.
+}
+
+
+Spec_NoTarget
+{
+No players found to follow
+}
+
+Spec_Help_Title
+{
+Spectator Mode
+}
+
+Spec_Help_Text
+{
+Use the following keys to change view styles:
+
+ FIRE1 - Chase next player
+ FIRE2 - Chase previous player
+ JUMP - Change view modes
+ USE - Change inset window mode
+ 
+ DUCK  - Enable spectator menu
+
+In Overview Map Mode move around with:
+
+ MOVELEFT - move left
+ MOVERIGHT - move right
+ FORWARD - zoom in
+ BACK - zoom out
+ MOUSE - rotate around map/target
+}
+
+OBS_NONE
+{
+Camera Options
+}
+
+OBS_CHASE_LOCKED
+{
+Locked Chase-Cam
+}
+
+OBS_CHASE_FREE
+{
+Free Chase-Cam
+}
+
+OBS_ROAMING
+{
+Roaming
+}
+
+OBS_IN_EYE
+{
+First Person
+}
+
+OBS_MAP_FREE
+{
+Free Overview
+}
+
+OBS_MAP_CHASE
+{
+Chase-Cam Overview
+}
+
+Spec_Slow_Motion
+{
+Slow Motion
+}
+
+Spec_Replay
+{
+Instant Replay
+}
+
+Spec_Auto
+{
+Auto
+}
+
+Spec_Map
+{
+Map
+}
+
+Spec_Duck
+{
+Press DUCK for Spectator Menu
+}
+
+Spect_Options
+{
+Options
+}
+
+Cam_Options
+{
+Camera Options
+}
+
+// Voice menus
+voice_menu1
+{
+Voice Commands:
+1. Yes
+2. No
+3. Follow Me
+4. Leave it to me
+5. Under Fire
+6. Spread Out
+7. Battle Cry
+8. Medic!
+0. Exit
+}
+
+voice_menu2
+{
+Voice Commands:
+1. Advance
+2. Retreat
+3. Rally the men
+4. Halt!
+5. Line Up
+6. Make Ready
+7. Present Arms
+8. Fire!
+9. Cease Fire
+0. Exit
+}
+
+SPEC_BECOME
+{
+has opted out of the war and deserves to be shot
+}
+
+CLASS_FIGHT_AS
+{
+is going to fight as a
+}
+
+TEAM_FIGHT_FOR
+{
+on
+}
+
+CLASS_RESPAWN_AS
+{
+You will respawn as a
+}
+
+TEAM_RESPAWN_ON
+{
+on the
+}
+
+TEAM_RESPAWN_ON_END
+{
+team
+}
+
+HIT_HITME
+{
+You were hit
+}
+
+HIT_HITYOU
+{
+Hit:
+}
+
+HIT_WHERE
+{
+in the
+}
+
+HIT_WHEREME
+{
+in the
+}
+
+HIT_BY
+{
+by
+}
+
+HIT_GENERIC
+{
+ 
+}
+
+HIT_HEAD
+{
+Head
+}
+
+HIT_CHEST
+{
+Chest
+}
+
+HIT_STOMACH
+{
+Stomach
+}
+
+HIT_LEFT_ARM
+{
+Left Arm
+}
+
+HIT_RIGHT_ARM
+{
+Right Arm
+}
+
+HIT_LEFT_LEG
+{
+Left Leg
+}
+
+HIT_RIGHT_LEG
+{
+Right Leg
+}
+
+CMD_YES
+{
+Aye
+}
+
+CMD_NO
+{
+No Sir
+}
+
+CMD_FOLLOW
+{
+Follow Me Men!
+}
+
+CMD_LEAVE_TO_ME
+{
+Leave it to me!
+}
+
+CMD_NEED_HELP
+{
+Under Attack. Need assistance
+}
+
+CMD_SPREAD_OUT
+{
+Spread out men!
+}
+
+CMD_BRIT_BATTLECRY
+{
+For King and Country!
+}
+
+CMD_AMER_BATTLECRY
+{
+Freedom!!!
+}
+
+CMD_MEDICAL_AID
+{
+I need medical aid!
+}
+
+CMD_MOVE_ON
+{
+Move on
+}
+
+CMD_RETREAT
+{
+Retreat!
+}
+
+CMD_HALT
+{
+Halt!
+}
+
+CMD_RALLY
+{
+Rally round men
+}
+
+CMD_LINE_UP
+{
+Line up
+}
+
+CMD_MAKE_READY
+{
+Make ready
+}
+
+CMD_PRESENT_ARMS
+{
+Present Arms
+}
+
+CMD_FIRE
+{
+Fire
+}
+
+CMD_CEASE_FIRE
+{
+Cease Fire!
+}
+
+POINT_CAPTURING
+{
+players are capturing
+}
+
+POINT_CAPTURED
+{
+players have captured
+}
+
+POINT_ABANDONED_START
+{
+The capture of
+}
+
+POINT_ABANDONED_END
+{
+has been abandoned by
+}
+
+POINT_LOST
+{
+has been lost by
+}
+
+POINT_PLAYER_ENTERED
+{
+is going to help capture
+}
+
+POINT_PLAYER_EXITED
+{
+is no longer helping capture
+}
+
+POINT_PLAYER_CAPTURING
+{
+is capturing
+}
+
+POINT_PLAYER_CAPTURED
+{
+has captured
+}
+
+POINT_BRITISH_TEAM
+{
+the British Team
+}
+
+POINT_AMERICAN_TEAM
+{
+the American Team
+}
+
+POINT_FOR
+{
+for
+}
+
+ROUND_PRE
+{
+The
+}
+
+ROUND_POST
+{
+team has won the round!
+}
+
+Help
+{
+Help -
+}
+
+Title_light_a
+{
+Continental Officer
+}
+
+Title_medium_a
+{
+Minuteman
+}
+
+Title_heavy_a
+{
+Continental Soldier
+}
+
+Title_light_b
+{
+Royal Commander
+}
+
+Title_medium_b
+{
+Royal Infantry
+}
+
+Title_heavy_b
+{
+Loyalist
+}

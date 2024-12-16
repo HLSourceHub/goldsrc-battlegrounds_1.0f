@@ -1,0 +1,14 @@
+// overview description file for bg_forestroad.bsp
+
+global 
+{
+	ZOOM		1.05
+	ORIGIN		-429.50 -650.50 688.00
+	ROTATED		1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_forestroad.bmp"
+	HEIGHT	191.00
+}

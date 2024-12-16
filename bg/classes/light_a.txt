@@ -1,0 +1,3 @@
+Commander
+
+A lower ranking officer, commanding soldiers in battle.  He moves faster than the regular soldier, since he has a lighter equipment.  He carries an officer's sabre, which is a classic token of distinction, and a Pennsylvania pistol for personal defence.  The pistol is reloaded slightly faster than the long guns.  The relatively short range of his weapons makes him better suited for close combat and melee.

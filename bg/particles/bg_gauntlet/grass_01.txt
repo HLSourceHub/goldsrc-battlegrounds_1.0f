@@ -1,0 +1,11 @@
+texture particles/longgrass04.tga
+scale 30
+leaning_max 105
+leaning_min 75
+wave_speed 16
+particles 6
+lod 1
+drop_on_ground 1
+transparency 255
+
+

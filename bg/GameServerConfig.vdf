@@ -1,0 +1,92 @@
+// BG DEDICATED SERVER CONFIGURATION SPECIFICATION FOR GUI
+"GameServerConfig"
+{
+	"mp_roundtime"
+	{
+		"name" "Round length (Seconds)"
+		"type" "string"
+	}
+
+	"mp_pausetime"
+	{
+		"name" "Pause time (Seconds)"
+		"type" "string"
+	}
+
+	"mp_roundlimit"
+	{
+		"name" "Round Limit"
+		"type" "string"	
+	}
+
+	"mp_timelimit"
+	{
+		"name" "Time Limit (Minutes)"
+		"type" "string"
+	}
+
+	"mp_respawnstyle"
+	{
+		"name" "Respawn Style"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "Whole team"
+			"1" "Dead only"
+		}
+	}
+
+	"mp_autoteambalance"
+	{
+		"name" "Keep teams equal"
+		"type" "string"
+	}
+	"mp_autoteambalance"
+	{
+		"name" "Keep Teams Equal"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "Off"
+			"1" "On"
+		}
+	}
+	"mp_winbonus"
+	{
+		"name" "Win Bonus Points"
+		"type" "string"	
+	}
+
+	"mp_friendlyfire"
+	{
+		"name" "Friendly fire"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "Disabled"
+			"1" "Enabled"
+		}
+	}
+
+	"mp_meleeonly"
+	{
+		"name" "Melee only Mode"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "Disabled"
+			"1" "Enabled"
+		}
+	}
+	
+	"mp_stationaryreload"
+	{
+		"name" "Stationary Reload"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "Disabled"
+			"1" "Enabled"
+		}
+	}
+}

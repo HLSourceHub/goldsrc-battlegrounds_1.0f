@@ -1,0 +1,46 @@
+BG_VALLEY BY JESPER "RENDER" EKWALL
+Textures by several people including Render, NegIon, 
+3dMike, Gorak, and Snorkie AND Steve AND Fosseh.
+Models by Sgt.Pepper and BlackPanther AND Steve
+Story written by Render and edited by Ben
+--------------------------------------------------------------
+
+A British platoon is patrolling near a road when an unexpected 
+cave-in cuts them off from the rest of their Regiment.  
+They have to traverse through a valley, which has not been 
+secured by the British yet.  They soon realize that they 
+have stumbled upon a colonial infested valley.
+
+OBJECTIVES:
+
+British:
+Go down the valley and secure the area so you can reunite 
+with your regiment regiment.
+
+Americans:
+You must eliminate all soldiers in the British platoon, 
+as they now know the location of a crucial colonial camp.
+
+---------------------------------------------------
+
+BIG THANKS TO THE FOLLOWING WONDERFUL PEOPLE:
+
+3dMike - For allowing me to use some of his textures
+Paranoid^ - For doing such a great job on the code
+Chris "R3B3L2K2" - Just for being so silly :)
+NegIon - For making that great "war" sound
+Ike Eisenhower - Your mom says you are cool ;)
+BG Team - For being there
+
+If you have any complaints or ideas concerning this map, 
+feel free to contact me at one of the following:
+
+Email: render@bgmod.com
+Email: render@render-mode.com
+ICQ: 76188980
+AIM: randomngaga
+MSN: rendermode@hotmail.com
+IRC: #battlegrounds
+Homepage: http://www.render-mode.com
+
+Cheers all!

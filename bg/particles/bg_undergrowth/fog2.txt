@@ -1,0 +1,31 @@
+texture particles/mist01.tga
+starting_particles 0
+new_particles_per_second 0.333
+scale 10
+growth 0.0
+lifetime 30
+lifetime_var 0
+gravity 0
+
+rotation_speed 10
+
+starting_velocity_x 0.5
+starting_velocity_y 0.0
+starting_velocity_z 0.0
+
+velocity_var_x 0.10
+velocity_var_y 0.02
+velocity_var_z 0.02
+damping 0.0
+
+emitter_shape plane
+plane_y_length 500
+plane_x_length 96
+
+display_mode 32
+transparency 75
+
+collision off
+fade_out 1
+fade_in 1
+wind 0

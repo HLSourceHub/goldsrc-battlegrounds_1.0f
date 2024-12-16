@@ -1,0 +1,14 @@
+// overview description file for bg_kingsmountain
+
+global 
+{
+	ZOOM		0.86
+	ORIGIN		589.67 -79.29 -2041.00
+	ROTATED		0
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_kingsmountain.bmp"
+	HEIGHT	-2041.00
+}

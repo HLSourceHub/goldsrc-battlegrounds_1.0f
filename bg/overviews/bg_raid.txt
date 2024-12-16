@@ -1,0 +1,14 @@
+// overview description file for bg_raid
+
+global 
+{
+	ZOOM		0.73
+	ORIGIN		-17.50 30.24 -3762.00
+	ROTATED		1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_raid.bmp"
+	HEIGHT	-3762.00
+}

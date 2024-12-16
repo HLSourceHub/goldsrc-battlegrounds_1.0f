@@ -1,0 +1,435 @@
+// Command Menu definition
+// 
+// Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command sent to server>"
+//
+// Or you can check for a specific class:
+//		<Class> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <Class> is one of: light_a, light_b, medium_a, medium_b, heavy_a, heavy_b
+// 
+// Or you can check for a specific map:
+//		MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <MapName> is the name of the map, without the ".bsp".
+//
+// Or you can check for a specific team:
+//		TEAM1 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+//		TEAM2 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+//
+// Buttons can also open up submenus, as follows:
+// {
+// 	"Some More Options",
+//	{
+//		...
+//	}
+// }
+//
+// Class can be any of the following:
+//		light_a, light_b, medium_a, medium_b, heavy_a, heavy_b
+//	Buttons prepended with a class name will only be seen if the player
+//	is that class. 
+//
+// Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
+// around or deleted.
+//
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+//--------------------------------------------------------
+// Everything below here is editable
+"1" "HELP"
+{
+	CUSTOM		"1" "SERVER INFO"	"!SERVERINFO"
+	CUSTOM		"2" "CLASS DESCRIPTION"	"!CLASSDESC"
+	CUSTOM		"3" "MAP DESCRIPTION"	"!MAPBRIEFING"
+}
+TEAM1 "2" "Change Class"
+{
+	"1" "Royal Commander"	"joinclass 1"
+	"2" "Royal Infantry"	"joinclass 2"
+	"3" "Loyalist"		"joinclass 3"
+}
+TEAM2 "2" "Change Class"
+{
+	"1" "Continental Officer"	"joinclass 1"
+	"2" "Minuteman"			"joinclass 2"
+	"3" "Continental Soldier"	"joinclass 3"
+}
+CUSTOM  	"3" "Change Team"	"!CHANGETEAM"
+
+MAP bg_valley "4" "Report"
+{
+	 "1" "Cannon Tower"
+	{
+		"1" "1 at Cannon Tower"		"say_team One enemy spotted at the Cannon Tower"
+		"2" "2 at Cannon Tower"		"say_team Two enemies spotted at the Cannon Tower"
+		"3" "Many at Cannon Tower"	"say_team Many enemies spotted at the Cannon Tower"
+	}
+	 "2" "Colonial Catacomb"
+	{
+		"1" "1 at Colonial Catacomb"	"say_team One enemy spotted at the Colonial Catacomb"
+		"2" "2 at Colonial Catacomb"	"say_team Two enemies spotted at the Colonial Catacomb"
+		"3" "Many at Colonial Catacomb"	"say_team Many enemies spotted at the Colonial Catacomb"
+	}
+	 "3" "Mountain Pass"
+	{
+		"1" "1 at Mountain Pass"	"say_team One enemy spotted at the Mountain Pass"
+		"2" "2 at Mountain Pass"	"say_team Two enemies spotted at the Mountain Pass"
+		"3" "Many at Mountain Pass"	"say_team Many enemies spotted at the Mountain Pass"
+	}
+	 "4" "Battlefield"
+	{		
+
+		"1" "1 at Battlefield"		"say_team One enemy spotted at the Battlefield"
+		"2" "2 at Battlefield"		"say_team Two enemies spotted at the Battlefield"
+		"3" "Many at Battlefield"	"say_team Many enemies spotted at the Battlefield"
+	}
+
+}
+
+MAP bg_valley "5" "Request"
+{
+	"1" "Support at Cannon Tower"	"say_team Need support at the Cannon Tower immediately"
+	"2" "Support at Colonial Catacomb"	"say_team Need support at the Colonial Catacomb immediately"
+	"3" "Support at Mountain Pass"	"say_team Need support at the Mountain Pass immediately"
+	"4" "Support at Battlefield"	"say_team Need support at the Battlefield immediately"
+
+}
+
+MAP bg_ruin "4" "Report"
+{
+	 "1" "Ruin"
+	{
+		"1" "1 at Ruin"			"say_team One enemy spotted at the Ruin"
+		"2" "2 at Ruin"			"say_team Two enemies spotted at the Ruin"
+		"3" "Many at Ruin"		"say_team Many enemies spotted at the Ruin"
+	}
+	 "2" "field house"
+	{
+		"1" "1 at Field House"		"say_team One enemy spotted at the Field House"
+		"2" "2 at Field House"		"say_team Two enemies spotted at the Field House"
+		"3" "Many at Field House"	"say_team Many enemies spotted at the Field House"
+	}
+	 "3" "Bridge"
+	{
+		"1" "1 at Bridge"		"say_team One enemy spotted at the Bridge"
+		"2" "2 at Bridge"		"say_team Two enemies spotted at the Bridge"
+		"3" "Many at Bridge"		"say_team Many enemies spotted at the Bridge"
+	}
+	"4" "Lumberjack"
+	{
+		"1" "1 at Lumberjack"		"say_team One enemy spotted at the Lumberjack"
+		"2" "2 at Lumberjack"		"say_team Two enemies spotted at the Lumberjack"
+		"3" "Many at Lumberjack"	"say_team Many enemies spotted at the Lumberjack"
+	}
+}
+
+MAP bg_ruin "5" "Request"
+{
+	"1" "Support at Ruin"		"say_team Need support at the Ruin immediately"
+	"2" "Support at Field House"	"say_team Need support at the Field House immediately"
+	"3" "Support at Bridge"		"say_team Need support at the Bridge immediately"
+	"4" "Support at Lumberjack"	"say_team Need support at the Lumberjack immediately"
+}
+
+MAP bg_newengland "4" "Report"
+{
+	 "1" "Field"
+	{
+		"1" "1 at Field"		"say_team One enemy spotted on the Field"
+		"2" "2 at Field"		"say_team Two enemies spotted at the Field"
+		"3" "Many at Field"		"say_team Many enemies spotted on the Field"
+	}
+	 "2" "Ship Area"
+	{
+		"1" "1 at Ship Area"		"say_team One enemy spotted at the Ship Area"
+		"2" "2 at Ship Area"		"say_team Two enemies spotted at the Ship Area"
+		"3" "Many at Ship Area"		"say_team Many enemies spotted at the Ship Area"
+	}
+	 "3" "Area behind the Town"
+	{
+		"1" "1 in Area behind the Town"		"say_team One enemy spotted in the small Area behind the Town"
+		"2" "2 in Area behind the Town"		"say_team Two enemies spotted in the small Area behind the Town"
+		"3" "Many in Area behind the Town"	"say_team Many enemies spotted in the small Area behind the Town"
+	}
+}
+
+MAP bg_newengland "5" "Request"
+{
+		"1" "Support at Field"			"say_team Need support on the Field immediately"
+		"2" "Support at Ship Area"		"say_team Need support at the Ship Area immediately"
+		"3" "Support at Area behind the Town"	"say_team Need support in the small Area behind the Town immediately"
+}
+
+
+MAP bg_plateau "4" "Report"
+{
+	"1""The River Underpass"
+	{
+		"1""1 on the River Underpass"		"say_team One enemy spotted at the river underpass"
+		"2""2 on the River Underpass"		"say_team Two enemies spotted at the river underpass"
+		"3""Many on the River Underpass"	"say_team Many enemies spotted at the river underpass"
+	}
+	"2""The Hill Path"
+	{
+		"1""1 on the Hill Path"		"say_team One enemy spotted at the hill path"
+		"2""2 on the Hill Path"		"say_team Two enemies spotted at the hill path"
+		"3""Many on the Hill Path"	"say_team Many enemies spotted at the hill path"
+	}
+	"3""The Cliff Rise"
+	{
+		"1""1 on the Cliff Rise"	"say_team One enemy spotted at the cliff rise"
+		"2""2 on the Cliff Rise"	"say_team Two enemies spotted at the cliff rise"
+		"3""Many on the Cliff Rise"	"say_team Many enemies spotted at the cliff rise"
+	}
+	"4""The Gorge"
+		"1""1 on the Gorge"		"say_team One enemy spotted at the gorge"
+		"2""2 on the Gorge"		"say_team Two enemies spotted at the gorge"
+		"3""Many on the Gorge"		"say_team Many enemies spotted at the gorge"
+	}
+	"5""The Old Ruins"
+			"1""1 on the Old Ruins"		"say_team One enemy spotted at the old ruins"
+			"2""2 on the Old Ruins"		"say_team Two enemies spotted at the old ruins"
+			"3""Many on the Old Ruins"	"say_team Many enemies spotted at the old ruins"
+	}
+}
+
+MAP bg_plateau "5" "Request"
+{
+	"1" "Support at the River Underpass"		"say_team Need support on the River Underpass immediately"
+	"2" "Support at the Hill Path"		"say_team Need support near the Hill Path immediately"
+	"3" "Support at the Cliff Rise"		"say_team Need support on the Cliff Rise immediately"
+	"4" "Support at the Gorge"		"say_team Need support near the Gorge immediately"
+	"5" "Support at the Old Ruins"		"say_team Need support on the Old Ruins immediately"
+}	
+
+MAP bg_forestroad "4" "Report"
+{
+	"1" "The Path"
+	{
+		"1" "1 on the Path"		"say_team One enemy spotted at the Path"
+		"2" "2 on the Path"		"say_team Two enemies spotted at the Path"
+		"3" "Many on the Path"		"say_team Many enemies spotted at the Path"
+	}
+	"2" "The Crater"
+	{
+		"1" "1 near the Crater"		"say_team One enemy spotted near the Crater"
+		"2" "2 near the Crater"		"say_team Two enemies spotted near the Crater"
+		"3" "Many near the Crater"	"say_team Many enemies spotted near the Crater"
+	}
+	"3" "The Bridge"
+	{
+		"1" "1 on the Bridge"		"say_team One enemy spotted on the Bridge"
+		"2" "2 on the Bridge"		"say_team Two enemies spotted on the Bridge"
+		"3" "Many at the Bridge"	"say_team Many enemies spotted on the Bridge"
+	}
+	"4" "The Watery Crater"
+	{
+		"1" "1 near the Watery Crater"		"say_team One enemy spotted near the Watery Crater"
+		"2" "2 near the Watery Crater"		"say_team Two enemies spotted near the Watery Crater"
+		"3" "Many near the Watery Crater"	"say_team Many enemies spotted near the Watery Crater"
+	}
+	"5" "The Slope"
+	{
+		"1" "1 on the Slope"		"say_team One enemy spotted on the Slope"
+		"2" "2 on the Slope"		"say_team Two enemies spotted on the Slope"
+		"3" "Many on the Slope"		"say_team Many enemies spotted on the Slope"
+	}
+}
+
+MAP bg_forestroad "5" "Request"
+{
+	"1" "Support at the Path"		"say_team Need support on the Path immediately!"
+	"2" "Capture the Path"			"say_team Capture the Path at all costs!"
+	"3" "Support at the Crater"		"say_team Need support near the Crater immediately!"
+	"4" "Capture the Crater"		"say_team Capture the Crater at all costs!"
+	"5" "Support at the Bridge"		"say_team Need support on the Bridge immediately"
+	"6" "Capture the Bridge"		"say_team Capture the Bridge at all costs!"
+	"7" "Support at the Watery Crater"	"say_team Need support near the Watery Crater immediately!"
+	"8" "Capture the Watery Crater"		"say_team Capture the Watery Crater at all costs!"
+	"9" "Support at the Slope"		"say_team Need support on the Slope immediately!"
+	"0" "Capture the Slope"			"say_team Capture the Slope at all costs!"
+}
+
+MAP bg_bunkerhill "4" "Request"
+{
+	TEAM1	"1" "Head for Left Flank!"	"say_team Head for the Left Flank and capture it!"
+	TEAM1	"2" "Head for Strong Point!"	"say_team Head for the Strong Point and capture it!"
+	TEAM1	"3" "Head for Right Flank!"	"say_team Head for the Right Flank and capture it!"
+
+	TEAM2	"1" "Defend Left Flank!"	"say_team Defend the Left Flank!"
+	TEAM2	"2" "Defend Strong Point!"	"say_team Defend the Strong Point!"
+	TEAM2	"3" "Defend Right Flank!"	"say_team Defend the Right Flank!"
+}
+"9" "SETUP"
+{
+	"1" "Graphics"			
+	{
+		"1" "Crosshair"	
+		{
+			"1" "Static Crosshairs" 
+			{
+				"1" "default" "cl_dynamicxhair 10"
+				"2" "custom 1" "cl_dynamicxhair 11"
+			"3" "custom 2" "cl_dynamicxhair 12"
+				"4" "custom 3" "cl_dynamicxhair 13"
+			}
+			"2" "Dynamic Red" "cl_dynamicxhair 1"
+			"3" "Dynamic Blue" "cl_dynamicxhair 2"
+			"4" "Dynamic Yellow" "cl_dynamicxhair 3"
+			"5" "Dynamic Black" "cl_dynamicxhair 4"
+			"6" "Dynamic White" "cl_dynamicxhair 5"
+			"7" "Dynamic HealthBeat" "cl_dynamicxhair 6"
+			"8" "Dynamic StaminaBeat" "cl_dynamicxhair 7"
+			"9" "Disco Mode" "cl_dynamicxhair 9"
+		}
+		"2" "Fog"
+		{
+			"1" "On" "cl_showfog 1"
+			"2" "Off" "cl_showfog 0"
+		}
+		"3" "Particle Count"
+		{ 
+			"1" "Off" "cl_ParticleCount 0"
+			"2" "10 percent" "cl_ParticleCount 10"	
+			"3" "20 percent" "cl_ParticleCount 20"
+			"4" "40 percent" "cl_ParticleCount 40"
+			"5" "60 percent" "cl_ParticleCount 60"
+			"6" "80 percent" "cl_ParticleCount 80"
+			"7" "90 percent" "cl_ParticleCount 90"
+			"8" "100 percent" "cl_ParticleCount 100"
+			"9" "More than 100 percent" 
+			{
+				"1" "120 percent" "cl_ParticleCount 120"
+				"2" "150 percent" "cl_ParticleCount 150"
+				"3" "180 percent" "cl_ParticleCount 180"
+				"4" "200 percent" "cl_ParticleCount 200"
+				"5" "250 percent" "cl_ParticleCount 250"
+				"6" "300 percent" "cl_ParticleCount 300"
+				"7" "400 percent" "cl_ParticleCount 400"
+				"8" "500 percent" "cl_ParticleCount 500"
+			}
+		}
+
+		"4" "Skin Detail"	
+		{
+			"1" "Low" "gl_max_size 256"
+			"2" "High" "gl_max_size 512"
+		}
+		"5" "Detail Textures"	
+		{
+			"1" "On" "r_detailtextures 1; r_detailtexturessupported 1"
+			"2" "Off" "r_detailtextures 0; r_detailtexturessupported 0"
+		}
+		"6" "Grass Amount"
+		{ 
+			"1" "reload particles" "reinit_particles"
+			"2" "Off" "cl_grassamount 0"
+			"3" "20 percent" "cl_grassamount 20"
+			"4" "40 percent" "cl_grassamount 40"
+			"5" "60 percent" "cl_grassamount 60"
+			"6" "80 percent" "cl_grassamount 80"
+			"7" "90 percent" "cl_grassamount 90"
+			"8" "100 percent" "cl_grassamount 100"
+			"9" "More than 100 percent" 
+			{
+				"1" "120 percent" "cl_grassamount 120"
+				"2" "150 percent" "cl_grassamount 150"
+				"3" "180 percent" "cl_grassamount 180"
+				"4" "200 percent" "cl_grassamount 200"
+				"5" "250 percent" "cl_grassamount 250"
+				"6" "300 percent" "cl_grassamount 300"
+				"7" "400 percent" "cl_grassamount 400"
+				"8" "500 percent" "cl_grassamount 500"
+			}
+		}
+		"7" "Particle sorts"
+		{ 
+			"1" "1" "cl_particlesorts 1"
+			"2" "2" "cl_particlesorts 2"
+			"3" "3" "cl_particlesorts 3"
+			"4" "4" "cl_particlesorts 4"
+			"5" "5" "cl_particlesorts 5"
+			"6" "10" "cl_particlesorts 10"
+			"7" "15" "cl_particlesorts 15"
+			"8" "20" "cl_particlesorts 20"
+
+		}
+	}
+	"2" "Game"
+	{
+		"1" "Hit Indication"
+		{
+			"1" "On" "cl_msgs_who_hit_me 1; cl_msgs_who_i_hit 1"
+			"2" "Off" "cl_msgs_who_hit_me 0; cl_msgs_who_i_hit 0"
+		}
+		"2" "Capture Messages"
+		{
+			"1" "On" "cl_msgs_captures 1"
+			"2" "Off" "cl_msgs_captures 0"
+		}
+		"3" "Team Change Msgs"
+		{
+			"1" "On" "cl_msgs_my_team_change 1; cl_msgs_team_change 1"
+			"2" "Off" "cl_msgs_my_team_change 0; cl_msgs_team_change 0"
+		}
+		"4" "Hintbox"
+		{
+			"1" "Off" "cl_HintBoxLevel 0"
+			"2" "Newbie" "cl_HintBoxLevel 1"
+			"3" "Advanced" "cl_HintBoxLevel 2"
+		}
+		"5" "Cap Points Display"
+		{
+			"1" "Super Short" "cl_capturetextlevel 0"
+			"2" "Short Text" "cl_capturetextlevel 1"
+			"3" "Short Text + Time" "cl_capturetextlevel 2"
+			"4" "Long Text" "cl_capturetextlevel 3"
+			"5" "Long Text + Time" "cl_capturetextlevel 4"
+		}
+	}
+	"3" "Audio"
+	{
+		"1" "Voice Commands"	
+		{
+			"1" "On" "mp_voice_commands 1"
+			"2" "Off" "mp_voice_commands 0"
+		}
+//		"2" "Speech Engine"	
+//		{
+//			"1" "Enabled"
+//			{
+//				"1" "On" "cl_speech 1"
+//				"2" "Off" "cl_speech 0"
+//			}
+//			"2" "Voice"
+//			{
+//				"1" "Voice 1" "cl_speechvoice 1"
+//				"2" "Voice 2" "cl_speechvoice 2"
+//				"3" "Voice 3" "cl_speechvoice 3"
+//
+//			}
+//			"3" "Rate"
+//			{
+//				"1" "1" "cl_speechrate -10"
+//				"2" "2" "cl_speechrate -5"
+//				"3" "3" "cl_speechrate 0"
+//				"4" "4" "cl_speechrate 5"
+//				"5" "5" "cl_speechrate 10"
+//			}
+//			"4" "Volume"
+//			{
+//				"1" "Off" "cl_speechvolume 0"
+//				"2" "20" "cl_speechvolume 20"	
+//				"3" "40" "cl_speechvolume 40"
+//				"4" "50" "cl_speechvolume 50"
+//				"5" "60" "cl_speechvolume 60"
+//				"6" "70" "cl_speechvolume 70"
+//				"7" "80" "cl_speechvolume 80"
+//				"8" "90" "cl_speechvolume 90"
+//				"9" "100" "cl_speechvolume 100"
+//			}
+//		}
+	}
+}
+		

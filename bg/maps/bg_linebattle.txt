@@ -1,0 +1,24 @@
+BG_LINEBATTLE BY SAM
+Textures by several people including the Render, Snorkie
+ and BlackPanther 
+Models by Sgt.Pepper and BlackPanther
+Story written by Sgt.Pepper and edited by Ben
+--------------------------------------------------------------
+
+Linebattle
+
+18th century warfare was much unlike today's. 
+Large formations of men moved and fought as one unit, 
+and the army with the best discipline had a good chance of winning. 
+The characteristics of the musket meant a lot for how tactics were developed. 
+The reloading procedure made coordination important, 
+so the soldiers wouldn't interfere with each other, 
+and the slow rate of fire meant commanders tried different methods
+to keep lead flying at all times in sustained fire.
+
+The by modern standards inaccurate and short ranged weapons meant
+that the opposing forces would advance close to each other before firing. 
+The close formations were needed for the gunfire to have effect. 
+Shooting, however, was no means of gaining ground. 
+This was done by bayonet charge,
+after softening the opponent with artillery and musket fire.

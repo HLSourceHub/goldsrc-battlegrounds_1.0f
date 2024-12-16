@@ -1,0 +1,44 @@
+// THE BATTLE GROUNDS PARTICLE SYSTEM EMITTER DEFINITION FILE
+//=======================================================================================//
+// All lines started with // will be ignored by BG
+// so that you can add notes to yourself or others in these files.
+// All settings start with the setting name.  The actual setting value follows after a space.
+
+//=======================================================================================//
+
+starting_particles 0
+new_particles_per_second 5.0
+texture particles/smoke08.tga
+scale 1.0
+growth 0.8
+lifetime 8.0
+lifetime_var 1.0
+rotation_speed 10.0
+gravity 0
+starting_velocity_x -0.4
+starting_velocity_y -0.4
+starting_velocity_z 0.9
+velocity_var_x 0.4
+velocity_var_y 0.4
+velocity_var_z 0.6
+damping 0.1
+transparency 255
+display_mode 32
+emitter_shape point
+plane_x_length 5
+plane_y_length 5
+anim_speed over_life
+fps 10
+starting_frame 1
+ending_frame 1
+frames_in_image 1
+loop_behaviour hold_last
+collision off
+falloff none
+wind 0
+fade_in 0
+fade_out 1
+planar 0
+smoke 1
+snow_rain  0
+

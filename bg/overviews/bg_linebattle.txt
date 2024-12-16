@@ -1,0 +1,14 @@
+// overview description file for bg_linebattle
+
+global 
+{
+	ZOOM	1.38
+	ORIGIN  -640.00 -135.32 -321.00
+	ROTATED 1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_linebattle.bmp"
+	HEIGHT	-321.00
+}

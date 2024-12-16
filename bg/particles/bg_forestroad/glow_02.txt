@@ -1,0 +1,32 @@
+texture particles/glow03.tga
+starting_particles 0
+new_particles_per_second 1.7
+scale 9.0
+growth 0.0
+lifetime 10
+lifetime_var 0
+gravity 0
+
+rotation_speed 5
+
+starting_velocity_x 0.2
+starting_velocity_y 0.2
+starting_velocity_z -1.8
+
+velocity_var_x 0.2
+velocity_var_y 0.2
+velocity_var_z 0.00
+damping 5.0
+
+display_mode 24
+transparency 150
+
+emitter_shape plane
+plane_x_length 2400
+plane_y_length 1
+
+
+collision off
+fade_out 1
+fade_in 1
+wind 0

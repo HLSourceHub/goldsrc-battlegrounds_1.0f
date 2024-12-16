@@ -1,0 +1,34 @@
+AVASIDEWALK         detail/concrete    8.0 8.0
+bp_icedist01         detail/rockdetail    8.0 8.0
+crete01        detail/concrete    8.0 8.0
+cuwoodm         detail/wood03    8.0 8.0
+cxwoodm         detail/wood03    8.0 8.0
+weastwood04         detail/wood02    8.0 8.0
+fifties_cch1        detail/fabric    8.0 8.0
+K_stone13         detail/concrete    8.0 8.0
+K_stone4         detail/concrete    8.0 8.0
+K_stonew1         detail/concrete    8.0 8.0
+K_wood11        detail/wood03    8.0 8.0
+K_wood1a         detail/wood02    8.0 8.0
+K_wood3         detail/wood02    8.0 8.0
+K_woodb1        detail/wood03    8.0 8.0
+mz_woodpln_v         detail/wood03    8.0 8.0
+pred_lex_road         detail/gras01    8.0 8.0
+ren_grass005         detail/gras01    8.0 8.0
+ren_grass34d         detail/gras01    8.0 8.0
+ren_road_3a         detail/crush1detail    8.0 8.0
+ren_wood1a         detail/wood02    8.0 8.0
+ren_wood3a         detail/wood02    8.0 8.0
+ren_wood6a         detail/wood02    8.0 8.0
+tel_outwall        detail/concrete    8.0 8.0
+tel_roof-02         detail/concrete    8.0 8.0
+tel-_roof-03         detail/concrete    8.0 8.0
+white_wood01         detail/wood03    8.0 8.0
+windwood10         detail/wood03    8.0 8.0
+wood         detail/sand    8.0 8.0
+wood_59         detail/wood03    8.0 8.0
+x_woodplz         detail/wood03    8.0 8.0
+
+
+
+

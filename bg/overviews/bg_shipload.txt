@@ -1,0 +1,14 @@
+// overview description file for bg_shipload
+
+global 
+{
+	ZOOM		1.23
+	ORIGIN		-1203.05 -963.63 -2081.00
+	ROTATED		1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_shipload.bmp"
+	HEIGHT	-120.00
+}

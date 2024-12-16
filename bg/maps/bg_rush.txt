@@ -1,0 +1,11 @@
+BG_rush
+By BuGi
+
+-------------------------
+
+Thanks to (in alphabetical order):
+Absolut Vodka for textures
+Benneh for trying to make move_with work
+Black Panther for answering my stupid questions about particles
+
+-------------------------

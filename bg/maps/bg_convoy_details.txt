@@ -1,0 +1,5 @@
+bg_tent1	detail/leather	8.0	5.0
+g_wood1	detail/wood02	8.0	8.0
+dirt_road	detail/dirt		8.0	8.0
+forgrass	detail/forgrass	8.0	8.0
+for_grass_blend	detail/rough	8.0	8.0

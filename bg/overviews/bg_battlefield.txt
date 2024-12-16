@@ -1,0 +1,14 @@
+// overview description file for bg_battlefield.bsp
+
+global 
+{
+	ZOOM		1.03
+	ORIGIN		1060.50 30.50 355.50
+	ROTATED		0
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_battlefield.bmp"
+	HEIGHT	-127.00
+}

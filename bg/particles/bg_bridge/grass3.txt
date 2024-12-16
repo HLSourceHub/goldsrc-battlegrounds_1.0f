@@ -1,0 +1,17 @@
+new_particle
+texture particles/grass01.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 5
+particles 12
+lod 1
+
+new_particle
+texture particles/grass02.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 5
+particles 12
+lod 1

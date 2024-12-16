@@ -1,0 +1,27 @@
+starting_particles 1
+new_particles_per_second 3
+texture particles/smoke1.tga
+scale 1.3
+growth 0.4
+lifetime 3
+lifetime_var 1
+rotation_speed 90
+gravity -0.8
+damping 0.3
+
+starting_velocity_x -0.2
+starting_velocity_y 0.2
+starting_velocity_z 0.8
+
+velocity_var_x 0.1
+velocity_var_y 0.1
+velocity_var_z 0.2
+
+transparency 180
+system_life -1
+display_mode 32
+emitter_shape point
+collision off
+wind 1
+fade_out 1
+fade_in 1

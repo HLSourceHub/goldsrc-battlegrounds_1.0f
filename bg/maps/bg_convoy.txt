@@ -1,0 +1,26 @@
+-=BG_CONVOY=- V6 for BG 122b-rc1
+(bg_convoy is the latest version of bg_ambush)
+By Airyn (airyn@free.fr)
+Web site: La Maison d'Etherne (http://www.etherne.fr.st)
+Textures by Arcturus (in dod_forest)
+
+Max players: 32
+There is three flags in this map: Bridge, Forest and Armory.
+Two players must are present for capture the Forest flag.
+
+
+Models
+adh_horse : by Alucard_DH (http://www.mapping-area.com), all animations by Airyn
+arc_bush : Day of defeat HL mod
+arc_fern2 : Day of defeat HL mod, animation "move" by Airyn
+stump_axe
+xen_stummel
+lip_wagon
+chest2 : update and animation by Airyn
+
+Textures
+{egyptwine,{for_for01,{fortop1,
+{fortop2,{grassplz,forgrass,fortree4,
+for_grass_blend (in dod_forest.wad by Arcturus for Day of defeat HM mod)
+bg_tent1 <- dod_boxes02 in stuka.wad (dod_stuka by 3D Mike for Day of defeat HL mod)
+)

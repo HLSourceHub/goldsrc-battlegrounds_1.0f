@@ -1,0 +1,38 @@
+//1024x768 text scheme file
+
+//Default BG Scheme
+SchemeName = "Default"
+FontName = "Arial"
+FontSize = 18
+FgColor = "255 255 255 255"
+BgColor = "20 20 20 1"
+FgColorArmed = "255 255 255 254"
+BgColorArmed = "255 255 255 255"
+BorderColor = "255 255 255 67"
+
+//British Default Colours 
+SchemeName = "British"
+FontName = "Arial"
+FontSize = 23
+FgColor = "255 25 25 255"
+BgColor = "20 20 20 141"
+FgColorArmed = "100 100 100 254"
+BgColorArmed = "255 25 25 67"
+
+//American Default Colours
+SchemeName = "American"
+FontName = "Arial"
+FontSize = 23
+FgColor = "5 5 255 255"
+BgColor = "20 20 20 141"
+FgColorArmed = "100 100 100 254"
+BgColorArmed = "25 25 255 67"
+
+//Spectator Default Colours
+SchemeName = "Spectator"
+FontName = "Arial"
+FontSize = 23
+FgColor = "5 255 5 255"
+BgColor = "20 20 20 141"
+FgColorArmed = "100 100 100 254"
+BgColorArmed = "25 255 25 67"

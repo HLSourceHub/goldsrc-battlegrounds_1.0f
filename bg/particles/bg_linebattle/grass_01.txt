@@ -1,0 +1,8 @@
+texture particles/grass15.tga
+scale 30.0
+leaning_max 90.0
+leaning_min 45.0
+wave_speed 16.0
+particles 10
+transparency 255
+lod 1

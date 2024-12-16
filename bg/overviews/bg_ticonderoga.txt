@@ -1,0 +1,14 @@
+// overview description file for bg_ticonderoga
+
+global 
+{
+	ZOOM		0.89
+	ORIGIN		-320.00 459.83 -2305.00
+	ROTATED		1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_ticonderoga.bmp"
+	HEIGHT	-2305.00
+}

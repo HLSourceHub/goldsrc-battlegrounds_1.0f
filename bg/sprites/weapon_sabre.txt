@@ -1,0 +1,9 @@
+6
+weapon			320 640_hud_weapons4	0	136	256	120
+weapon_s		320 640_hud_weapons4	0	136	256	120
+crosshair		320 null	0	0	0	0
+
+weapon			640 640_hud_weapons4	0	136	256	120
+weapon_s		640 640_hud_weapons4	0	136	256	120
+crosshair		640 null	0	0	0	0
+

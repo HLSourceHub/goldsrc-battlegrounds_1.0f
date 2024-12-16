@@ -1,0 +1,23 @@
+bg_ticonderoga by JMW (Justin Michael Wright)  --check out www.jmwrightdesigns.com for more
+
+
+ticonderoga info
+---------------->
+*-->Time took to create:  Months.  Alot of work for the first month, then mostly tweaking for the next few.
+
+*-->Time took to compile:  about 20 mins.
+
+*-->Special Note: This map was created for the Battle Grounds mod.  www.bgmod.com  
+
+*-->Concept: I joined the bg team as a mapper in early 2004.  bg_ticonderoga was my first project for the team.  This map is based on the famous fort ticonderoga from the Revolutionary War.
+For more on the fort go here: http://www.fort-ticonderoga.org.  
+Of all the projects I have done, ticonderga was the toughest.  This was the first time I had to recreate something that was real.  Due to the size of the fort and the limitations of the hl1 engine, I had to trim the fort down to a manageable size.  After trashing 2 other designs, I finally settled on this one.  
+
+*-->Layout: The Americans start on the outskirts of fort ticonderoga and must make their way up the hills and into the fort.  The British are towards the back of the fort and end up meeting the Americans out in the battlefield.  The map contains 3 flags: the first inside the fort, the second in the road between both sides, and the third on the outskirts of the fort.
+
+*-->All sounds/models/sprites/particles are from the Battle Grounds MOD.
+
+*-->For other maps/art/audio visit www.jmwrightdesigns.com
+
+----------------->
+-JMW 2004  www.jmwrightdesigns.com for game audio, levels, and art.

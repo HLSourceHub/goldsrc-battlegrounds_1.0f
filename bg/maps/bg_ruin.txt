@@ -1,0 +1,48 @@
+BG_RUIN BY JESPER "RENDER" EKWALL
+Textures by several people including Render, Xerent, Gorak, 
+NegIon, and Snorkie.
+Models by Sgt.Pepper, Xerent, and BlackPanther
+Story written by Render and edited by Ben
+--------------------------------------------------------------
+
+British intelligence reports, that a colonial camp lies near 
+a choke point where the British can cut off the 
+colonial’s supply-line.  It needs to be captured to achieve 
+an easy end to a fearsome enemy camp.  Both sides are 
+rallying to it, not knowing if, or when the enemy soldiers 
+will arrive, but all fear that a Line Battle is imminent.
+
+OBJECTIVES:
+
+British:
+There can be only one winner, so see to it that the 
+colonial dogs will taste your bayonet, if they try to 
+resist your superior regiment.
+
+Americans:
+Patriotic or not, you cannot let the British capture 
+this chokepoint, for that would be the beginning of a long 
+starvation period.  Fight well and you will live 
+to see another day.
+
+---------------------------------------------------
+
+**BIG THANKS TO THE FOLLOWING WONDERFUL PEOPLES:
+
+BG Team - for making this mod reality
+Xerent - for allowing me to use some of his textures 
+and some tree prefabs
+
+If you have any complaints or ideas or whatever concerning 
+this map, feel free to contact me at one of the following:
+
+Email: rendermode@hotmail.com
+ICQ: 76188980
+AIM: randomngaga
+MSN: rendermode@hotmail.com
+IRC: #battlegrounds
+
+Cheers all!
+
+PS: This is a development version of the map.  
+There are known Bugs!

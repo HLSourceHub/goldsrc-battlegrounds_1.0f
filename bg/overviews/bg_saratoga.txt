@@ -1,0 +1,14 @@
+// overview description file for bg_saratoga
+
+global 
+{
+	ZOOM		1.03
+	ORIGIN		120.58 -24.07 -3905.00
+	ROTATED		0
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_saratoga.bmp"
+	HEIGHT	-3905.00
+}

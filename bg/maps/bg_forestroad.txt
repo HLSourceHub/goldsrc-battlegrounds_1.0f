@@ -1,0 +1,30 @@
+BG_FORESTROAD BY Predator
+Textures by several people including BlackPanther, Pr3dator
+Models by Sgt.Pepper, Justin Fisher, Whiskas and BlackPanther
+Story written by Predator and edited by Ben
+--------------------------------------------------------------
+
+       	The American rebel scouts have stumbled upon a British
+supply line that follows a forest road.  This area is a key factor
+in winning the war for the British.  They are determined to destroy these
+pesky rebels once and for all in order to save their supply line.  The British
+troops follow the rebles through the forest and America scouts, on the retreat,
+blocked the road with anything they could find to stop British supplies from
+getting through.  Both sides need the road to have a better preparedness for
+battles to come.
+
+Objectives:
+
+	Each side must push the opposition back to their starting locations
+in order to take control of the road.  The Bridge is the most important capture area
+and therefore awards its owner with more points than any other capture areas.
+
+Special Thanks:
+
+Black Panther - Reflective water textures, Mushrooms model, bird sounds Awesome
+	transparent models, and fence models.
+Sgt. Pepper - Half-log model, treestump model
+Justin Fisher - The wonderfull sky 
+Whiskas - Log model
+Rest of the Team - Official textures and testing
+

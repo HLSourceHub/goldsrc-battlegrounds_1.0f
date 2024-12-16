@@ -1,0 +1,14 @@
+// overview description file for bg_bridge.bsp
+
+global 
+{
+	ZOOM		0.86
+	ORIGIN		84.00 160.00 -160.00
+	ROTATED		0
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_bridge.bmp"
+	HEIGHT	-1153.00
+}

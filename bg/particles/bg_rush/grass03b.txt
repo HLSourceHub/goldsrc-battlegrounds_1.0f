@@ -1,0 +1,48 @@
+texture particles/realgras01.tga
+scale 22
+leaning_max 100
+leaning_min 80
+wave_speed 30
+particles 10
+lod 1
+transparency 255
+
+new_particle
+texture particles/realgras02.tga
+scale 22
+leaning_max 100
+leaning_min 80
+wave_speed 30
+particles 10
+lod 1
+transparency 255
+
+new_particle
+texture particles/realgras03.tga
+scale 22
+leaning_max 100
+leaning_min 80
+wave_speed 30
+particles 10
+lod 1
+transparency 255
+
+new_particle
+texture particles/realgras06.tga
+scale 22
+leaning_max 100
+leaning_min 80
+wave_speed 30
+particles 10
+lod 1
+transparency 255
+
+new_particle
+texture particles/realgras07.tga
+scale 22
+leaning_max 100
+leaning_min 80
+wave_speed 30
+particles 10
+lod 1
+transparency 255

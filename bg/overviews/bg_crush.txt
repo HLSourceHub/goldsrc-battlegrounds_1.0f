@@ -1,0 +1,14 @@
+// overview description file for bg_crush.bsp
+
+global 
+{
+	ZOOM		0.82
+	ORIGIN		48.00 64.00 92.00
+	ROTATED		0
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_crush.bmp"
+	HEIGHT	-577.00
+}

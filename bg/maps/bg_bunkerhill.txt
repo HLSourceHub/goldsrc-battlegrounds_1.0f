@@ -1,0 +1,44 @@
+BG_BUNKERHILL BY Predator
+Textures by several people including BlackPanther, Fenix 
+Models by Sgt.Pepper and BlackPanther
+Story written by Predator and edited by Ben
+--------------------------------------------------------------
+
+	After retreating from Lexington in 1775, the British
+occupied Boston.  Realizing the need to strengthen their
+position in Boston, plans were developed to seize and fortify
+nearby Dorchesyer Heights and Charlestown peninsulas (the
+area surrounding Bunker Hill.)  This area provided a commanding
+view of the seaport and harbor in Boston.  All the British needed
+to easily occupy Boston was to set up a command post on the
+nearby hills.  Unfortunately, the Americans in the area discovered
+the British plans and fortified the hills before the British could.  
+The British saw the fortifications the next day and realized that
+the Americans were there to stay, and thus the battle of Bunker
+Hill began.
+
+OBJECTIVES:
+
+British:
+Take control of the hill from the rebels, at all costs, in
+order to better command Boston.  Try to find every way into the
+fort to make it easier to win.  To take the fort, simply hold the
+areas around the front walls for 15 seconds.
+
+Americans:
+Guard the fort from the British at all costs.  Points are
+for how long the Americans can hold of the Brtish.
+
+Special Thanks:
+
+Black Panther - Textures, skining the Ship.mdl and the barrel idea.
+Pepper - Making the awesome Ship.mdl and Sovel.mdl
+Snorkie - Water idea and texture
+Ben - Proof reading this txt file and making the new FGD
+Render - Mapping help
+Fenix - Easter Egg Textures
+The rest of the BG Team - Ideas, support, and for being there...
+	
+	
+	
+  

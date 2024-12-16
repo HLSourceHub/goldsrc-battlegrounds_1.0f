@@ -1,0 +1,67 @@
+// The Battle Grounds Grass Particle System Emitter Definition File
+//=======================================================================================//
+// All lines started with // will be ignored by BG
+// so that you can add notes to yourself or others in these files.
+// All settings start with the setting name.  The actual setting value follows after a space.
+// Each setting must be on a new line.  An example of a setting can be seen below
+
+testsetting 10
+
+// Below I will give an example of a fully fleshed out grass particle system
+// There are some comments after some settings. 
+// These comments are no substitute for the guide, which explains all this in much more detail
+//=======================================================================================//
+
+// Path to the image for this particle
+texture particles/grass01.tga
+
+// The starting size of the particle multiplied with 30 in the code, 
+// so 1.0 means 30 hl units what is compareable to something like 50cm.
+scale 30.0
+
+// The Maximum amount a particle can lean
+leaning_max 90.0
+
+// The Minimum amount a particle can lean
+leaning_min 45.0
+
+// How fast the wind is moving
+wave_speed 0.0
+
+//  The Number of particles spawned by the emitter when the map is loaded
+particles 20
+
+// Is the maximum transparency of a particle.
+// 255 = totally solid
+// 0 = totally see through, invisible
+// It's a sliding scale inbetween
+transparency 255
+
+// Particles further away from the user aren't rendered saving them fps
+lod 1
+
+// Grass particles find the ground below them.  Highly Recommended to leave on 1
+drop_on_ground 1
+
+// Particles for this system won't be sorted, meaning particles behind them may be drawn infront
+// With most grass particles the difference between drawn infront of and drawn behind can't be seen
+// This is a good optimisation technique in those cases
+ignore_sort 1
+
+// When the game sees new_particle it creates a new particle type
+// This new particle type can have all new settings
+// Your func_grass can contain as many different types as you like
+// Each type is independant of each other, with regards to number of particles
+// particle texture, wind speed, etc
+new_particle
+
+// Example of another grass particle
+texture particles/grass02.tga
+scale 30.0
+leaning_max 90.0
+leaning_min 45.0
+wave_speed 0.0
+particles 20
+transparency 255
+lod 1
+drop_on_ground 1

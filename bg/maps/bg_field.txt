@@ -1,0 +1,23 @@
+BG_FIELD BY SVEN "ANGEL" G.and Pr3dator
+Textures by several people
+Models by Sgt.Pepper and BlackPanther
+CFG file written by ANGEL and edited by Ben
+--------------------------------------------------------------
+
+OBJECTIVES
+
+Capture all flags to win the round.
+
+---------------------
+
+Many thanks go to:
+
+Pr3dator - For w_poly reduction, re-texturing and applying new 1.2.2 engien features to the map.
+BlackPanther - For including my fun map "pos_field" into the BG mod as an official map :D
+BG Team - For making a great mod
+
+If you have any suggestions please contact me:
+
+E-mail: Angel@xunit.de
+Homepage: http://xunit.de
+

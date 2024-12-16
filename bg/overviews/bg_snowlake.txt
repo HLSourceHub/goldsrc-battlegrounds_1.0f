@@ -1,0 +1,14 @@
+// overview description file for bg_snowlake
+
+global 
+{
+	ZOOM		1.08
+	ORIGIN		26.95 20.02 -887.00
+	ROTATED		0
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_snowlake.bmp"
+	HEIGHT	-887.00
+}

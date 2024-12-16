@@ -1,0 +1,28 @@
+texture particles/grass10.tga
+scale 30.0
+leaning_max 90.0
+leaning_min 70.0
+wave_speed 6.0
+particles 10
+transparency 255
+lod 1
+
+new_particle
+texture particles/realgras05.tga
+scale 30.0
+leaning_max 90.0
+leaning_min 70.0
+wave_speed 6.0
+particles 10
+transparency 255
+lod 1
+
+new_particle
+texture particles/longgrass03.tga
+scale 30.0
+leaning_max 90.0
+leaning_min 70.0
+wave_speed 6.0
+particles 10
+transparency 255
+lod 1

@@ -1,0 +1,1408 @@
+//-----------------------------------------------------------
+//                 The Battle Grounds
+//-----------------------------------------------------------
+// In this file you can modify the sound the textures gives
+// when players walk on them
+//
+// Location: X:\Half-Life\bg\sound\materials.txt
+//
+// NOTE: only the first 20 characters of the texture name are used
+// NOTE: a maximum of 1024 textures may be tagged in this file
+//
+//  'G' Grass
+//  'H' Alternative Grass (Not yet implemented)
+//  'N' Snow
+//  'W' Wood
+//  'D' Dirt
+//  'P' Swamp
+//  'U' Mud
+//  'L' Leaves
+//  'A' Sand
+//  'E' Stone (Default)
+//  'B'	Cloth
+//
+//  'S' Liquid
+//  'T' Tile
+//  'C' Concrete
+//  'M' Metal
+//  'Y' Glass
+// 
+//   (Stone is the default)
+//   
+//   *edited   Note that the last texture applied to this file
+//             won´t work, always use a "ghost" texture at the
+//             ending.
+//
+//   -Regards Render and Benneh^
+//
+
+//-----------------------------------------------------------
+// bg_town_1.wad - Listing done by Benneh^
+//-----------------------------------------------------------
+
+W olddoor1
+W oldwood
+W panelWood
+B pl_carpet1
+W plainfence
+W plywood
+E redone_stone
+T redone-rooof
+T redtile
+T ren_roof
+T ren_roof2
+T ren_roof3
+T ren_roof4
+T ren_roof5
+T ren_roof6
+T ren_roof7
+E ren_stonewall8
+T roadbrick
+E rock
+E rock_fl
+E rock_fl2
+E rock1_fl
+E rock_gr
+E rock1k
+E rock2
+E rock2_wl
+E rock3_wl
+E rock4_wl
+E rockterracesm
+E rockyroad
+T rocf10k
+T roof2K
+T rooftiles_big
+T rooftiles001
+W rottingwood1K
+B rug160256a
+B rug192256b
+B sas
+W siding_old14
+W signback
+W signfront
+W smallcrate
+W smallcrate1
+W smallcrate2
+W smallcratetop
+B smoe_curtain
+B smoe_rug1
+E steps-brick4af
+E stoneground001
+E stonewall
+E stonewall001
+E stonewall002
+E stonewall003
+E stonewall1_big
+E stonewall1a
+E stonewall2
+E stonewall3
+E stonewall4
+E stonewall5
+W teashop
+Y teataxwindo
+L thatch
+L thatch1
+L thatch2
+W tk_barrel
+W tk_barrel20001
+W tk_barrel3
+W tk_barrelside
+W tk_barrektop
+W tk_doorpanel
+B tk_HerekeRug
+B tk_kazakRug
+W tk_litecrate3
+W tk_mod-wood
+A tk_opencrate3
+A tk_opencrate4
+E tk_stucco3thin
+E tk_stuccoWin
+W tk_wicker2tp
+W tk_wicker3tp
+A tk_wickeropn1
+D tk_wickeropn2
+G tk_wickeropn3
+W tk_woodbrd
+T tutshngl
+W villagepub
+E wall_stone
+E wall_stone4
+E wall_stone5
+E wall_stone9
+E wall1
+E wall2
+W wall1k
+W wall2k
+W wall2k2
+W wall2kwindow
+W wall3k
+W wall3ktop
+W wall3kwindow2
+W wall3kwindow3
+E wall4a
+E wall4c
+E wall6a
+E wall7a
+G wdmossv32
+W wdplanks256d
+W wdplanks256e
+W wdplanks256f
+W wdwall12864
+W wdwall256256b
+W wdwall64256b
+W white_wood1
+Y window_d001
+Y window_s001
+Y window1
+W window1a
+W window1b
+W window1c
+W window2 // can't see this one properly. I'm guessing it is wood covering for a window
+W window2a
+W window2b
+Y window2k
+Y windowa
+Y windowbusted
+Y windowlighon
+E wlPaper
+W wood_59
+W wood_old15
+W wood_panel2aa
+W wood_tiled
+W wood_tiled2
+W Wood01
+W wood1
+W wood17
+W wood1k
+W wood26
+W wood30
+W wood6
+W WoodCrateLid
+W woodenplank2
+W woodenplank2sm
+W woodenplank3
+W woodenplanks2
+W woodgrain
+W woodgrain_dark
+W woodplank
+W woodplank1k
+W woodplank2k
+W woodplanks
+W woodplanks5
+W zewoodgrain
+
+//-----------------------------------------------------------
+// bg_town_2.wad - Listing done by Benneh^
+//-----------------------------------------------------------
+
+W 06_window_louve
+W -0oldwood1
+W -0rosewood
+E -0singles1
+W -1oldwood1
+W -1rosewood
+E -1shingles1
+E 2KPbrick1
+E 2KPbrick2
+W -2rosewood
+E 3KPbrick1
+E 3KPbrick2
+E 3KPbrick4
+E 3KPbrick5
+W -3rosewood
+W barkboven
+W barkside
+W tk_door7
+B bg_tent1
+B bg_tent2
+M blackmetalpole
+M blackmetaltop
+W blacksmithshop
+B bliss_rope
+M Blitz_tread2
+W bookcase01
+W bookcase02
+W bookcase-small
+W bottom-w1a
+T br_fl
+T br_fl2
+T br_fl3
+T br_fl4
+E bricks
+E bricks1
+E bricks2
+W butchershop
+W cabnet-1ka4
+W cabnet-door1a
+W cedfence
+W cedfence2
+C cement
+E wall_stone2
+W cf_roof02
+E cuiceilb
+W cuwoodm
+L cxgroundh
+E cxmoata
+E cxrockf
+T cxwoodf
+W cxwoodi
+L pi_bigbrk2b
+E pi_outwall4
+E pi_rockbase
+W pi_rockbase
+E rope
+W wdmossv32
+W wdtrimv128b
+W x_tree
+E churchbrick
+T CinderBlock02
+T claytile1
+W clutch_oak
+C conc05
+C concrete001
+E courtwall
+W crate_50
+W crate_wood5
+W crate-dark2
+W crateside1
+W crateside2
+W crateside3
+C crete01
+T darkroof
+E dbrick
+E dmgwall
+W dock1
+W door
+W door1a
+W door1b
+W door2
+W door2a
+W door2b
+W door2c
+W door2d
+W door2e
+W door-2oldaaz
+W door3a
+W door5a
+W door5b
+W door8
+W drkborder1
+E drkciel
+C drkcrete
+W drkdoor
+T drkshingle
+E drkwl
+E drkwl2
+E drkwl2_b
+E drkwl2_t1
+E drkwl2_t2
+E drkwl2_w
+E drkwlrch
+W eastdoor1
+W fence
+W fence2k
+W fence4
+W frontgate
+W g_wood1
+W g_wood2
+W genericwood
+E goldbrick
+B jack1k
+B jack2k
+B jack3k
+E KPbrick1
+E lbrick
+E lbrick
+E lv_marble
+W M_Barel1
+W M_Barel2
+E M_towerbrick2
+E M_towerbrick4
+C matt_cemmmm
+M matt_mebunker1
+E matt_mepath1
+W matt_outwooden
+E matt_rckwall1
+T matt_roofdigi
+a matt_sandarch
+A matt_sandwall
+A matt_sandwall1
+A matt_sandwin
+M matt_wartrack
+E mattc_flag123
+W mdoor1
+W mdoor2
+T mroof1
+T mroof2
+T mroof3
+W mwood1
+E N_rockwall
+T N_shingle1
+E newrock
+W ng_door
+E NMLfacia6
+W NMLfloor_board3
+W NMLfloor_pat2
+Y NMLwindow2
+Y NMLwindow3
+Y NMLwindow4
+E nra_brick256
+
+//-----------------------------------------------------------
+// bg_nature_1.wad - Listing done by Render
+//-----------------------------------------------------------
+
+W darklog1
+W darklog11
+W darklog2
+W darklog21
+W darklog3
+W darklog31
+w darklog4
+W darklog41
+D dirt
+D dirt_road1
+U dirt01
+D dirt1
+U dirt2
+U dirt3
+U dirt4
+D dirtanddeadgras
+E drystonewall
+E drystonewall2
+E drystonewall3
+D embankment2
+L foliage1
+E forcliff
+E forcliffbegin
+E frostsewer
+L grass
+E grass_edge2
+L grass10
+H grass4
+H grass5
+P greenbushy
+H hay1
+H hay2
+H hay3
+H hayground
+H hayside
+L hedge1
+E M_mosstone1
+E M_mosstone2
+H mhay1
+D N_debris
+E N_rockground
+D ng_crater2
+D ng_road
+N ng_snow5
+E ng_snowrock3
+W ng_wood2
+L nm_leaves7
+L nm_leaves8
+E nm_rock25
+D out_dirtex
+E out_mostn1
+A P_beach0
+D pebbles3
+N r_Snow1
+N j_snowfp
+N j_snow
+W j_snowwood
+C j_isotope
+E j_snowrocks
+E road
+L 3dmleav1
+E cubed
+E cxrockf
+E cxrockfbase
+W r_snowwood
+U riverbank1k
+E road
+E road001
+E rock_343a
+E rock_gr
+E rock_gr2
+E rock_gr3
+G ng_grass
+D ng_road
+E road001
+E rock006d
+E rock006de
+E jbRockA
+E rockster
+W ng_door
+E rock1
+E rockbegin2
+H roundbale
+D rubble1
+D smallembankmen
+N snow
+N snow_cliff
+N snow_cliff2
+N snow_cliff3
+C snow_ice
+N snow_mounds
+U snow_mud
+E snow_rock
+E snow_rockcliff
+N snow_rockcliff2
+N snow_rockcliff3
+N snow_rockcliff4
+N snow_rockedge
+N snow_rocks
+N snow_rubble
+N snow_rubble2
+N snow_rubble3
+N snow_rubble4
+N snow1
+N snow2
+N snow3
+P soil
+W tree_bark_red
+W tree_bark_white
+W tree1
+W tree2
+W treebark
+E wallaca2vw
+C WallGrit01
+C WntrIce
+N WntrSnow
+L translucent_top
+
+//-----------------------------------------------------------
+// bg_nature_2.wad - Listing done by Render
+//-----------------------------------------------------------
+
+G grass
+G grass_edge
+G grass005
+G grass1
+G grass1_big
+G grass10
+G grass2
+G grass20
+G grass3
+G grass30
+G grass4
+G grass40
+G grass5
+G grass6
+G grass7
+G grass8
+G grass9
+G grass8
+G grass9
+D grassanddirt
+G grass-small2a3
+E -0blu_path
+E -0blu_rock3
+E -0blu_rock4
+E -0blu_rock5
+E -0blu_smooth
+E 0cliff1
+E 0cliff1sm
+E 0clifftop1
+E 0clifftop1sm
+E 0clifftop2
+E 0clifftop2sm
+D -0grassy
+E -0green_path
+E -0green_rock3
+E -0green_rock4
+E -0green_rock5
+E -0green_smooth
+E -0grey_path
+E -0grey_rock3
+E -0grey_rock4
+E -0grey_rock5
+E -0grey_smooth
+E -0Rock
+E 0rocks1
+E -0rocks1
+H -0twinkiegrass
+E -0yel_path
+E -0yel_rock3
+E -0yel_rock4
+E -0yel_rock5
+E -0yel_smooth
+E -1blu_path
+E -1blu_rock3
+E -1blu_rock4
+E -1blu_rock5
+E -1blu_smooth
+E 1cliff1
+E -1cliff1
+E 1cliff1sm
+E 1clifftop1
+E 1clifftop1sm
+E 1clifftop2
+E 1clifftop2sm
+D -1grassy
+E -1green_path
+E -1green_rock3
+E -1green_rock4
+E -1green_rock5
+E -1green_smooth
+E -1grey_path
+E -1grey_rock3
+E -1grey_rock4
+E -1grey_rock5
+E -1grey_smooth
+E -1Rock
+E 1rocks1
+E -1rocks1
+H -1twinkiegrass
+E -1yel_path
+E -1yel_rock3
+E -1yel_rock4
+D -2grassy
+E -2Rock
+E -3Rock
+W bark
+E barkend
+D boot_dirt_01
+D boot_grass_05
+G boot_grass_06
+G bp_grass
+G bp_grass2
+G bp_grass5
+G daank_grass
+G cliffgrass1
+G darkgrass
+G hedge1
+G M_grass1_big
+G moss1
+G nm_leaves8
+G tree2
+D bunkerwall1a
+E canyonscliff
+E canyonscliff2
+E cliff1k
+E cliff3
+E cliff3sm
+E cliff4
+E cliff4sm
+E cliff5
+E cliff5sm
+E cliff6
+E cliff6sm
+E cliffgrass
+E clifftop2m
+
+//-----------------------------------------------------------
+// bg_scenary_1.wad - Listing done by Benneh^
+//-----------------------------------------------------------
+
+S !bloodywater
+S !bloodywater2
+S !bwater1
+S !bwater2
+S !bwater3
+S !c2a5
+S !c2a52
+S !c2a52b
+S !c2a53
+S !c2a54
+S !c2a542
+S !c2a54b
+S !greenwater
+S !gwater1
+S !gwater2
+S !gwater3
+S !gwater4a
+S !gwater4b
+S !gwater5
+P !gwater5b
+S !gwater6
+P !radio
+P !rwater1
+P !rwater2
+P !rwater3
+S !water1
+S !water2a
+S !water2b
+S !water2c
+P !waterblood
+P !waterslimea2
+P !waterslimea3
+P !waterslimea4
+W {acer
+M {armco
+W {bigtree
+W {birtch
+W {branch_1
+G {bush1
+H {bush2
+G {bushes
+W {cedar
+M {chain
+W {cherry
+W {chestnut
+W {chestnut1k
+W {chestnut2
+B {clothes-line1
+B {clothes-line2
+B {clothes-line3
+W {confir
+H {cornfield
+W {cs_woodfnc
+W {fir1
+B {flag-ca3
+W {forest1
+W {forest2
+W {forest3
+G {forest4
+W {gate
+H {GK_forest1
+G {GK_forest2
+G {grass1
+H {greentree7
+L {haygrass
+L {hayside1
+G {hedge2
+G {hedge3
+H {hedge4
+G {hedge5
+M {italyirongate
+M {ladder40
+W {M_tracks1
+W {M_tracks2
+E {ng_forock
+N {ngsnowcliff1
+L {nm_leaves3
+L {nm_leaves6
+W {old-ladder4a
+M {pylon
+E {rockwall1
+M {sewerlid1
+W {shrub1b
+N {SNOWFOREST
+N {SNOWWOOD1
+W {stained3
+G {tallgreengrass
+M {tk_grate
+G {tomatoplant
+L {tree1
+G {weed
+W {wheel
+W {whitefence
+Y {window3
+Y {window4
+W {window-589234
+W {windowbrd
+W {woodedfence1k
+W {woodedgate
+W {woodedgate1k
+W {woodenfence1
+W {woodenfence2
+W {woodfnc
+L {woods2
+G {woods3
+W {yew
+S {+0waterfall5
+S {+1waterfall5
+S {+2waterfall5
+S {+3waterfall5
+S {+4waterfall5
+Y {reflect1
+
+//-----------------------------------------------------------
+// render.wad - Listing done by Render
+//-----------------------------------------------------------
+
+L {ren_hedge4a
+L {ren_forock
+W {ren_wood10f
+L {edit_treeline1
+L {edit_ltrees1
+E {ren_ruin
+E {ren_ruin2
+E {ren_ruin3
+W {ren_wood10e
+W ren_bark3c
+W ren_basket1a
+W ren_beam1a
+W ren_beam2b
+W ren_beam3a
+D ren_crater2b
+D ren_dirt11b
+D ren_dirt13
+D ren_dirt5d
+W ren_door5c
+W ren_door6a
+W ren_door7a
+W ren_easter1
+G ren_grass7a
+G ren_grass7ab
+D ren_grass7ac
+G ren_grass7ad
+W ren_roof11c
+W ren_roof12b
+E ren_wall10a
+E ren_wall31
+E ren_wall32
+E ren_wall36b
+W ren_wood1a
+W ren_wood3a
+W ren_wood5c
+W ren_wood6c
+W ren_wood9b
+W ren_wood10f
+D ren_road2
+G ren_grass3h
+G ren_grass3c
+E ren_rock
+E ren_rock1
+L ren_rockfor
+D ren_crater2
+D ren_road
+E ren_rockwall
+G ren_grass005
+E ren_wall
+E ren_rock_grass
+E tombchippen
+E tombike
+E tombngaga
+
+//-----------------------------------------------------------
+// snorkie_1.wad - Listing done by Render and Benneh^
+//-----------------------------------------------------------
+
+B bp_sail1a
+W bp_wood1a
+W cont_plank1
+W cont_plank2
+W cont_plank3a
+W cont_plank3b
+A cont_sand1
+W farm_plank1a
+W farm_plank1b
+W farm_plank1c
+E fatrocks1
+W gunpowder1
+W gunpowder2
+W gunpowder3
+E jungfloor1a
+E jungfloor1b
+E jungfloor1c
+E jungfloor2a
+E jungfloor2b
+L junggreen1a
+E junggreen1b
+E junggreen2a
+E junggreen2b
+W jungplank1a
+W jungplank1b
+W jungplank1c
+E man_brick1
+E man_brick2
+E man_cobble1
+L man_field1
+L man_field2
+L man_field3
+D man_gra1
+G man_grass2
+G man_grass3
+G man_grass4
+G man_grass5
+L man_green1
+E marble_dirty
+E sno_ice1
+E sno_ice2
+N sno_ice3
+N sno_ice4
+E sno_ice5
+E sno_ice6
+E sno_ice7
+E sno_newbrick11
+E sno_newbrick12
+U snograsmud2
+U snograsmud3
+G snograsski1
+G snoground04
+D snoground07
+U snomudsk3
+U snomudski1
+U snomudski2
+W snorkie_farm1a
+W snorkie_farm1b
+W snorkie_farm2a
+G snorkie_field1a
+G snorkie_field1b
+G snorkie_ground1
+D snorkie_ground2
+D snorkie_ground3
+D snorkie_ground4
+D snorkie_ground5
+G snorkie_ground6
+G snorkie_ground7
+W snorkie_house1a
+W snorkie_house1b
+W snorkie_house1c
+W snorkie_house2a
+W snorkie_house2b
+W snorkie_house2c
+W snorkie_house2d
+W snorkie_house2e
+W snorkie_house2f
+L snorkie_night1
+L snorkie_night2
+L snorkie_night3
+D snorkie_road2
+D snorkie_road3
+D snorkie_road4
+D snorkie_road5
+A snorkie_sand1
+W snorkie_ship2a
+W snorkie_ship2b
+W snorkie_ship2c
+W snorkie_ship4a
+W snorkie_ship4b
+W snorkie_ship4c
+W snorkie_ship5a
+W snorkie_ship5b
+W snorkie_ship5c
+E snorkie_wall1
+W snorkie_wood1
+W snorkie_wood2
+W snorkie_wood3
+W snorkie_wood4
+W snorkie_wood5
+G snorkieground10
+D snorkieground11
+D snorkieground12
+D snorkieground13
+D snorkieground14
+D snorkieground15
+D snorkieground16
+D snorkieground17
+L snorkieground18
+L snorkieground19
+L snorkieground20
+D snorkieground21
+L snorkieground22
+L snorkieground23
+D snorkieground24
+D snorkieground25
+D snorkieground26
+G snorkieground27
+D snorkieground28
+D snorkieground29
+D snorkieground30
+D snorkieground31
+D snorkieground32
+L snorkieground33
+D snorkieground34
+D snorkieground8
+D snorkieground9
+U snorkiesomethin
+E snountain1
+E snountain2
+W winddoor1
+A windground2
+D windground3
+D windground4
+D windroad1
+D windroad2
+D windroad3
+D windroad4
+D windroad5
+E windroof1
+E windroof2
+W windtrim1
+W windwall1
+W windwall2
+W windwall3
+W windwall4
+W windwall5
+W windwall6
+W windwall7
+W windwall8
+W windwall9
+W windwin1
+
+//-----------------------------------------------------------
+// snorkie_2.wad - Listing done by Render and Benneh^
+//-----------------------------------------------------------
+
+W windwood1
+W windwood2
+W windwood3
+W windwood4
+W windwood5
+W windwood6
+W windwood7
+W windwood8
+W windwood9
+W windwood10
+W windwood11
+W windwood12
+
+//-----------------------------------------------------------
+// blackpanther.wad Listing done by BlackPanther and Benneh^
+//-----------------------------------------------------------
+
+S !bp_water
+S !bp_water01
+W {bp&renwood
+L {bp_bush3
+W {bp_door02
+L {bp_furtree
+B {bp_net
+D {bp_net2
+B {bp_net3
+L {bp_plant01
+L {bp_redtree
+W {bp_tree_nolea2
+W {bp_tree_noleaf
+W {bp_tree03
+W {bp_tree2
+L {bp_yelltree
+L {bush
+S +0bp_caustic
+S +1bp_caustic
+S +2bp_caustic
+S +3bp_caustic
+S +4bp_caustic
+S +5bp_caustic
+S +6bp_caustic
+S +7bp_caustic
+S +8bp_caustic
+G bp&jk_grass04
+G bp&jk_sandygras
+T bp_arch01
+G bp_bea2graright
+G bp_bea2gras
+G bp_bea2grasleft
+Y bp_churchw01
+Y bp_churchw02
+Y bp_churchw03
+E bp_chwall01
+E bp_chwall02
+A bp_crater01
+E bp_deco01
+Y bp_deco02
+E bp_deco03
+N bp_dirt&snow
+N bp_dirt&snow2
+U bp_dirt01
+G bp_grass01
+G bp_grass02
+G bp_grass1a
+G bp_grass1b
+G bp_grass2
+G bp_grass5
+L bp_grassleafes
+L bp_groundleafes
+G bp_hay
+D bp_houseground
+L bp_leafes&snow
+G bp_red2greenbot
+G bp_red2greengra
+G bp_red2gregrato
+G bp_red2grenrigh
+E bp_rockysnow
+E bp_snow&rock
+N bp_snow4
+N bp_snowbar
+N bp_snowwend
+N bp_snowroof
+N bp_snowstreak
+N bp_snowyrock
+N bp_snowyrock2
+N bp_snowywall
+E bp_wall
+E bp_wall01
+E bp_wall02
+E bp_wall03
+E bp_wall04
+E bp_wall05
+E bp_wall06
+E bp_wall07
+W bp_wicker01
+W bp_window
+W bp_woodwall
+
+//-----------------------------------------------------------
+// predator.wad - Listing done by Render & Predator & Benneh^
+//-----------------------------------------------------------
+
+L {bp_authedge01
+L {bp_authedge011
+L {bp_authedge012
+L {bp_authedge013
+L {bp_authedge02
+L {bp_authedge021
+L {bp_authedge022
+L {bp_authedge023
+W {bp_forestwall
+W {bo_fortwall01
+L {BP_leafceildrk
+L {BP_lealceiling
+L {K_hedge1
+L {K_hedge1
+G {prd_frstcln_01
+G {prd_frstcln_02
+G {prd_frstcln_03
+G {prd_frstcln_04
+G {prd_grass_02
+G {prd_grass_04
+G {prd_hedge_01
+G {prd_hedge_02
+L {prd_sarahedge
+L {prd_treline_0
+W {prd_wd_fns_01
+G {ren_forestline
+G {ren_treeline2
+S +0watersno
+S +1watersno
+S +2watersno
+S +3watersno
+S +4watersno
+S +5watersno
+S +6watersno
+D BP_3bldirtgrs-
+D BP_3bldirtgras1
+D BP_3bldirtgras2
+D BP_3bldirtgras3
+D BP_3bldirtgras4
+D BP_3bldirtgras5
+L bp_autgrs2dr_01
+L bp_autgrs2dr_02
+L bp_autgrs2dr_03
+L bp_autgrs2dr_04
+D BP_crater02
+D bp_daank2dirt1
+D bp_daank2dirt2
+D bp_dirt2grass
+D bp_dirt2grass2
+W BP_forestwal02
+W BP_forestwall
+D bp_gras02crater
+G bp_gras04
+L bp_grass01_aut2
+L bp_grass01_aut3
+L bp_grass01_rd_a
+L bp_grass01_rd_b
+L bp_grass01_rd_c
+L bp_grs_aut2_b
+L bp_grs01_aut2_c
+L BP_leafceildark
+L BP_leafceiling2
+D bp_road01
+E bp_rock2grass
+E bp_rock2grass2
+W bp_wood2dirt01
+S bunk_water1
+S bunk_water2
+W cxwoodm
+D daank_grass
+D daank_grass_rd
+W prd_bark_02
+E prd_brckwall_01
+D prd_dirt01
+D prd_dirt02
+E prd_frstwall01
+G prd_grass_01
+G prd_grass_02
+G prd_grass_03
+G prd_grass_04
+D prd_grass_05
+D prd_grass_06
+G prd_grass_07
+D prd_grass_08
+D prd_grass_z
+D prd_mbrkmnt_01
+G prd_rd2grsbnd_a
+E prd_rkfr2dkgr_a
+E prd_rkfr2dkgr_b
+D prd_road_01
+D prd_road_02
+E prd_rockflr_01
+E prd_stnwall_01
+W prd_treewall
+W prd_wood_01
+W prd_wood2dirt_0
+W prd_wood2drt_02
+W prd_woodwall_01
+W prd_woodwall_03
+W prd_woodwall_04
+W prd_woodwall_05
+W prd_woodwall_06
+W prd_wwgrsdrt_01
+
+
+//-----------------------------------------------------------
+// dod.wad - Listing done by Render
+//-----------------------------------------------------------
+
+L {x_hedge1b
+W x_tree
+L {x_hedge1b
+
+//-----------------------------------------------------------
+// bg_forest.wad - Listing done by Benneh^
+//-----------------------------------------------------------
+
+L {egyptwine
+W {for_for01
+L {fortop1
+G {fortop2
+G {grassplz
+D dirt_road
+L for_grass_blend
+G for_grass
+W fortree4
+
+//-----------------------------------------------------------
+// bg_bunkerhill.wad - Listing done by Benneh^
+//-----------------------------------------------------------
+
+S !ren_water6a
+L {forest1
+G {grass1
+L {K_hedge1
+L {K_hedge2
+G {prd_hedge_01
+A bp_bea2gras
+A bp_bea2grasleft
+D bp_crater01
+G bp_gras01
+G bp_gras02
+E bp_wall01
+E bp_wall02
+E bp_wall03
+A P_beach0
+D prd_dirt01
+G prd_embarkment
+W tk_barrelside
+W tk_barreltop
+W woodenplank2
+W woodgrain_dark
+
+
+//--------------------------------------------------------------------
+// bugi.wad - Listing done by XSpike and BuGi
+//--------------------------------------------------------------------
+
+S !abv_water2
+S !abv_water2b
+G abv_grass1
+G abv_grass1a
+G abv_grass1aa
+G abv_grass1c
+D abv_grass4e
+D abv_grass4g
+D abv_grassand
+W abv_intewall2b
+W abv_intewall2d
+W abv_planks1
+W abv_planks2
+E abv_rock1
+E abv_stone1
+D bp_road02
+D bg_road03
+W K_wood10
+W K_woodwindow1
+
+//--------------------------------------------------------------------
+// JMW.wad - Listing done by XSpike
+//--------------------------------------------------------------------
+
+G Cpt_Grass02
+L prd_bush_m
+
+//--------------------------------------------------------------------
+// Predator2.wad - Listing done by XSpike
+//--------------------------------------------------------------------
+
+E cxbrickftrimc
+W cxwoodm
+D prd_lex_road
+W ren_base1c
+W {ren_wood7a
+E cxsolidb
+W ren_beam2a
+W ren_bean2b
+W ren_door6a
+W ren_floor1a
+G ren_grass34d
+G ren_grass8b
+U ren_mud3c
+W ren_plank1c
+D ren_road3a
+W ren_roof11c
+W ren_roof12b
+W ren_stair1a
+W ren_stair1b
+E ren_wall10a
+W ren_wall34b
+E ren_wall35g
+W ren_wood6a
+w ren_wood8a
+S scrollrenwater
+C w_wallpaper1
+C w_wallpaper2
+M {ren_fence2
+
+//--------------------------------------------------------------------
+// xspike.wad - Listing done by XSpike
+//--------------------------------------------------------------------
+
+S !waterwell
+G {x_side3
+D blend
+E blend2
+D blend3
+D cr_dirt2
+E cxrockf
+T from_cs_edited
+Y glass
+G grasstrack
+W IR_Nroofz
+D JH_Rocky
+L JH_RoughWater
+L k_water2b
+W K_wood11
+G M_grass3_2
+E rockcliffz
+E sgt_cliff_raid1
+E sgt_cliffgrass1
+C sgt_wall_01
+C sgt_wall02
+G Chinko-grass
+
+//--------------------------------------------------------------------
+// sgtgarvey.wad - Listing done by XSpike, updated by Steve
+//--------------------------------------------------------------------
+
+C Brick_way1
+E Cpt_cliff_01
+G Cpt_Grass01
+D dark_worn_dirt
+D dark_worn_grass
+D dark_wornboth
+D dirt1
+D grass_1_test4[1
+E New_Cliff
+E rock_2
+E Rock_Ngrass
+G ruin_grass
+G ruin_grass_road
+E sl_cliff
+D sl_dirtsnow01
+D sl_dirtsnowbot
+D sl_dirtsnowleft
+D sl_dirtsnowrigh
+D sl_dirtsnowtop
+N sl2_snow
+N sl2_snowarty
+E stone
+E stone_1
+E Stone_Grass_wal
+E Stone_Walk1
+E tile_ground1
+W trenche_wood1
+L water_1
+W Wicker1
+W wood_think
+G worn_better
+E Worn_path
+G worn_test1_nosh
+
+//--------------------------------------------------------------------
+// bg_unreleased_old.wad - Listing done by XSpike
+//--------------------------------------------------------------------
+
+L !waterblue
+M {bars
+W {con_fence01
+N {j_iceicle
+W {j_snowfence
+W {ren_wood7a
+L +0waterfall1
+L +1waterfall1
+L +2waterfall1
+L +3waterfall1
+L +4waterfall1
+W c1a1c_w1b
+W conAFDHIDA
+G con_grass01
+D con_grass01a
+D con_grass01b
+G con_grass01c
+W con_hjADFO
+E con_rockwall01
+E con_rockwall01a
+G constraw
+G con_straw2
+W con_treebark01
+E con_wall01
+E con_wall01a
+E con_wall01b
+L con_water
+W cxwoodm
+D dirt300
+B fifties_cch1
+B fifties_tbl1
+D generic009
+N j_isotope
+W j_log
+N j_snow
+W j_snowbark
+E j_snowcredits
+S j_snowfp
+B j_snowheyhay
+W j_snowhouse01
+W j_snowhouse02
+W j_snowhouse03
+W j_snowhouse08
+E j_snowpath
+E j_snowrocks
+E j_snowrocks2
+W j_snowroof
+W j_snowwood
+D ren_dirt6b
+E renwall31
+W ren_wood8a
+S scrollfall1
+W trrm_wood
+W wood1
+
+//--------------------------------------------------------------------
+// airyn.wad - listing by Steve
+//--------------------------------------------------------------------
+
+B bg_tent1
+L forgrass
+L for_grass_blend
+
+//--------------------------------------------------------------------
+// steves.wad - listing by Steve
+//--------------------------------------------------------------------
+
+B {flag-uk
+B {flag-us
+W {ladder_01
+B {tostig
+E concrete_01
+W door_wood_01
+W roof_shingle_00
+B rug_01
+E spineHouseA1
+E spineHouseA2
+E spineHouseA3
+E spineHouseA4
+E spineHouseB1
+E spineHouseB2
+E spineHouseB3
+E spineStoneWall
+W wood_01
+W wood_02
+W wood_03
+
+//--------------------------------------------------------------------
+// name your wad file here and continue as shown above, keep it clean.
+//--------------------------------------------------------------------

@@ -1,0 +1,14 @@
+// overview description file for bg_ruin.bsp
+
+global 
+{
+	ZOOM		0.77
+	ORIGIN		34.50 127.56 -28.50
+	ROTATED		1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_ruin.bmp"
+	HEIGHT	-3952.00
+}

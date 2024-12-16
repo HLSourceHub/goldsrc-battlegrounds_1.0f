@@ -1,0 +1,14 @@
+// overview description file for bg_undergrowth.bsp
+
+global 
+{
+	ZOOM		0.76
+	ORIGIN		0.00 0.0 -167.00
+	ROTATED		1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_undergrowth.bmp"
+	HEIGHT	-847.00
+}

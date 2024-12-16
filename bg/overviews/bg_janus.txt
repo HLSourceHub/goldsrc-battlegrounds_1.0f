@@ -1,0 +1,14 @@
+// overview description file for bg_janus.bsp
+
+global 
+{
+	ZOOM		1.17
+	ORIGIN		0.00 0.00 884.00
+	ROTATED		1
+}
+
+layer 
+{
+	IMAGE	"overviews/bg_janus.bmp"
+	HEIGHT	183.00
+}

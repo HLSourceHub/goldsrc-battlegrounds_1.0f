@@ -1,0 +1,31 @@
+starting_particles 0
+new_particles_per_second 3
+scale 1.0
+texture particles/water_splash03.tga
+lifetime 4.0
+lifetime_var 1
+gravity 0
+growth 0.8
+damping 0.3
+
+rotation_speed 10
+
+starting_velocity_x -1.0
+starting_velocity_y 0.0
+starting_velocity_z 1.0
+
+velocity_var_x 0.5
+velocity_var_y 0.5
+velocity_var_z 0.5
+
+transparency 160
+system_life -1
+
+emitter_shape plane
+plane_x_length 30
+plane_y_length 200
+
+collision off
+fade_out 1
+fade_in 1
+wind 0

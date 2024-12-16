@@ -1,0 +1,265 @@
+217
+selection		320 	320hud1	160	160	80	20
+
+bucket1			320 	320hud2	108	16	12	12
+bucket2			320 	320hud2	108	28	12	12
+bucket3			320 	320hud2	108	40	12	12	
+bucket4			320 	320hud2	108	52	12	12
+bucket5			320 	320hud2	108	64	12	12					
+bucket0			320 	320hud2	108	76	12	12
+
+dmg_bio			320 	320hud4	0	0	32	32
+dmg_poison		320 	320hud4	0	0	32	32
+dmg_chem		320 	320hud4	32	0	32	32
+dmg_cold		320 	320hud4	64	0	32	32
+dmg_drown		320 	320hud4	96	0	32	32
+dmg_heat		320 	320hud4	128	0	32	32
+dmg_gas			320 	320hud4	160	0	32	32
+dmg_rad			320 	320hud4	192	0	32	32
+dmg_shock		320 	320hud4	224	0	32	32
+
+
+d_skull		320	640_hud_kill	231	217	24	39
+d_Sabre		320	640_hud_kill	0	109	127	13
+d_PistolA		320	640_hud_kill	0	26	119	28
+d_PistolB		320	640_hud_kill	0	200	108	22
+d_Pennsylvania	320	640_hud_kill	0	0	153	25
+d_Revolutionnaire	320	640_hud_kill	0	148	160	22
+d_Knife		320	640_hud_kill	0	125	63	14
+d_Charleville	320	640_hud_kill	0	56	153	23
+d_BrownBess		320	640_hud_kill	0	172	163	25
+d_Cannon		320	640_hud_kill	0	80	73	26
+d_Bayonet		320	640_hud_kill	0	141	73	4
+
+
+number_0		320 	320hud2	0	0	12	16
+number_1		320 	320hud2	12	0	12	16
+number_2		320 	320hud2	24	0	12	16
+number_3		320 	320hud2	36	0	12	16
+number_4		320 	320hud2	48	0	12	16
+number_5		320 	320hud2	60	0	12	16
+number_6		320 	320hud2	72	0	12	16
+number_7		320 	320hud2	84	0	12	16
+number_8		320 	320hud2	96	0	12	16
+number_9		320 	320hud2	108	0	12	16
+
+divider			320 	320hud2	120	0	1	20
+
+cross			320 	320hud2	0	72	16	16
+
+suit_full		320 	320hud2	0	52	20	20
+suit_empty		320 	320hud2	20	52	20	20
+
+flash_full		320 	320hud2	16	72	18	16
+flash_empty		320 	320hud2	34	72	18	16
+flash_beam		320 	320hud2	52	72	6	16
+
+train_back		320	320hud3 0	0	48	48
+train_stop		320	320hud3 48	0	48	48
+train_forward1		320	320hud3 96	0	48	48
+train_forward2		320	320hud3 144	0	48	48
+train_forward3		320	320hud3 192	0	48	48
+
+title_half		320 	320hud3 0	48	128	16
+title_life		320 	320hud3 128 	48	116	16
+
+grenade			320 	320hud2	36	34	18	18
+
+//===========================================
+
+
+selection		640 	640hud3	0	180	170	45
+
+bucket1			640 	640hud7	168	72	20	20
+bucket2			640 	640hud7	188	72	20	20		
+bucket3			640 	640hud7	208	72	20	20		
+bucket4			640 	640hud7	168	92	20	20		
+bucket5			640 	640hud7	188	92	20	20		
+bucket0			640 	640hud7	208	92	20	20		
+
+dmg_bio			640 	640hud8	128	0	64	64
+dmg_poison		640 	640hud8	128	0	64	64
+dmg_chem		640 	640hud8	0	0	64	64
+dmg_cold		640 	640hud9	64	0	64	64
+dmg_drown		640 	640hud8	64	0	64	64
+dmg_heat		640 	640hud9	128	0	64	64
+dmg_gas			640 	640hud9	0	0	64	64
+dmg_rad			640 	640hud9	192 	0	64	64
+dmg_shock		640 	640hud8	192	0	64	64
+
+number_0		640 	640hud7	0	0	20	24
+number_1		640 	640hud7	24	0	20	24
+number_2		640 	640hud7	48	0	20	24
+number_3		640 	640hud7	72	0	20	24
+number_4		640 	640hud7	96	0	20	24
+number_5		640 	640hud7	120	0	20	24
+number_6		640 	640hud7	144	0	20	24
+number_7		640 	640hud7	168	0	20	24
+number_8		640 	640hud7	192	0	20	24
+number_9		640 	640hud7	216	0	20	24
+
+suit_full		640 	640hud7	0	24	40	40
+suit_empty		640 	640hud7	40	24	40	40
+
+flash_full		640 	640hud7	160	24	32	32
+flash_empty		640 	640hud7	112	24	32	32
+flash_beam		640 	640hud7 144	24	16	32
+
+train_back		640	640hud5 170	0	72	72
+train_stop		640	640hud5 170	72	72	72
+train_forward1		640	640hud5 170	144	72	72
+train_forward2		640	640hud6 170	0	72	72
+train_forward3		640	640hud6 170	72	72	72
+
+autoaim_c		640  crosshairs	96	0	24	24
+
+title_half		640 	640hud4	0	226	256	30
+title_life		640 	640hud5	0	226	220	30
+
+grenade			640 	640hud7	48	96	24	24
+
+d_skull		640	640_hud_kill	231	217	24	39
+d_Sabre		640	640_hud_kill	0	109	127	13
+d_PistolA		640	640_hud_kill	0	26	119	28
+d_PistolB		640	640_hud_kill	0	200	108	22
+d_Pennsylvania	640	640_hud_kill	0	0	153	25
+d_Revolutionnaire	640	640_hud_kill	0	148	160	22
+d_Knife		640	640_hud_kill	0	125	63	14
+d_Charleville	640	640_hud_kill	0	56	153	23
+d_BrownBess		640	640_hud_kill	0	172	163	25
+d_Cannon		640	640_hud_kill	0	80	73	26
+d_Bayonet		640	640_hud_kill	0	141	73	4
+
+armlegshot 		640 640_hud_armlegshot 	0 	0 	32 	64
+health			640	640_hud_health  0	0	24	96
+stamina			640	640_hud_stamina 0	0	24	96
+hudback			640	640_hud_base	0 	0	256	128
+ctb			640	640_hud_ctb	0	0	82	72
+water			640	640_hud_water	0	0	256	128
+kill			640	640_hud_kill	0	0	256	256
+weapon_sel		640	640_hud_weapon	0	0	256	256
+armlegshot 		320 	armlegshot 	0 	0 	64 	64
+health			320	320_hud_health  0	0	12	48
+stamina			320	320_hud_stamina 0	0	12	48
+hudback			320	320_hud_base	0 	0	128	64
+
+
+//Bp - Hintbox Hints
+hintboxback		640	640_hud_hintbox_back	0 	0	256	128
+hintbox1		640	640_hud_hintbox_jump 	0 	0 	256 	128
+hintbox2		640	640_hud_hintbox_crouch	0 	0 	256 	128
+hintbox3		640	640_hud_hintbox_reload 	0 	0 	256 	128
+hintbox4		640	640_hud_hintbox_flagcap	0 	0 	256 	128
+hintbox5		640	640_hud_hintbox_flagoverload 	0 	0 	256 	128
+hintbox6		640	640_hud_hintbox_hint 	0 	0 	256 	128
+hintbox7		640	640_hud_hintbox_lowstamina 	0 	0 	256 	128
+hintbox8		640	640_hud_hintbox_tscore 	0 	0 	256 	128
+hintbox9		640	640_hud_hintbox_pscore 	0 	0 	256 	128
+hintbox10		640	640_hud_hintbox_mute 	0 	0 	256 	128
+hintbox11		640	640_hud_hintbox_lowammo 0 	0 	256 	128
+hintbox12		640	640_hud_hintbox_melee 	0 	0 	256 	128
+hintbox13		640	640_hud_hintbox_melee2	0 	0 	256 	128
+hintbox14		640	640_hud_hintbox_camping	0 	0 	256 	128
+hintbox15		640	640_hud_hintbox_crouch2	0 	0 	256 	128
+hintbox16		640	640_hud_hintbox_inaccurate	0 	0 	256 	128
+hintbox17		640	640_hud_hintbox_displaymode	0 	0 	256 	128
+hintbox18		640	640_hud_hintbox_progspawn	0 	0 	256 	128
+
+//Bp - Hintbox Class Stats
+hintbox21		640	640_hud_hintbox_light	0	0	256	128
+hintbox22		640	640_hud_hintbox_heavy	0	0	256	128
+hintbox23		640	640_hud_hintbox_medium	0	0	256	128
+hintbox24		640	640_hud_hintbox_light	0	0	256	128
+hintbox25		640	640_hud_hintbox_medium	0	0	256	128
+hintbox26		640	640_hud_hintbox_heavy	0	0	256	128
+
+//Bp - Capture Point Icons
+point_red		640	640_hud_points_red	0	0	21	23
+point_blue		640	640_hud_points_blue	0	0	21	23
+point_white		640	640_hud_points_white	0	0	21	23
+
+//Bp - Capture Clock
+capture_clock		640	640_hud_clock		0	0	194	195
+capture_fillup		640	640_hud_fillup		0	0	100	101
+
+//BP the first number after the num_ is the font size (5 is biggest), the last coloum is the font height in px
+
+num_1_0			640	640_hud_numbers 80 	102 	5 	8
+num_1_1			640	640_hud_numbers 0 	102 	4 	8
+num_1_2			640	640_hud_numbers 9 	102 	5 	8
+num_1_3			640	640_hud_numbers	18 	102 	5	8
+num_1_4			640	640_hud_numbers 27	102 	6 	8
+num_1_5			640	640_hud_numbers 36 	102 	5 	8
+num_1_6			640	640_hud_numbers 44 	102 	5 	8
+num_1_7			640	640_hud_numbers 53 	102 	5 	8
+num_1_8			640	640_hud_numbers 62 	102 	5 	8
+num_1_9			640	640_hud_numbers 71 	102 	5 	8
+
+num_2_0			640	640_hud_numbers 99 	80 	7	10
+num_2_1			640	640_hud_numbers 0 	80 	4 	10
+num_2_2			640	640_hud_numbers 10 	80 	7 	10
+num_2_3			640	640_hud_numbers 21 	80 	7 	10
+num_2_4			640	640_hud_numbers 33 	80 	7 	10
+num_2_5			640	640_hud_numbers 44 	80 	7 	10
+num_2_6			640	640_hud_numbers 55 	80 	7 	10
+num_2_7			640	640_hud_numbers 66 	80 	7 	10
+num_2_8			640	640_hud_numbers 77 	80 	7 	10
+num_2_9			640	640_hud_numbers 88 	80 	7 	10
+
+num_3_0			640	640_hud_numbers 119 	58 	8 	12
+num_3_1			640	640_hud_numbers 0 	58 	5 	12
+num_3_2			640	640_hud_numbers 12 	58 	8 	12
+num_3_3			640	640_hud_numbers 25 	58 	8 	12
+num_3_4			640	640_hud_numbers 39 	58 	8	12
+num_3_5			640	640_hud_numbers 52 	58 	8 	12
+num_3_6			640	640_hud_numbers 65 	58 	8 	12
+num_3_7			640	640_hud_numbers 79 	58 	8	12
+num_3_8			640	640_hud_numbers 92	58 	8 	12
+num_3_9			640	640_hud_numbers 105 	58 	8 	12
+
+num_4_0			640	640_hud_numbers 139 	36 	9 	14
+num_4_1			640	640_hud_numbers 0 	36 	6	14
+num_4_2			640	640_hud_numbers 14 	36 	9 	14
+num_4_3			640	640_hud_numbers 30 	36 	9 	14
+num_4_4			640	640_hud_numbers 44 	36 	10 	14
+num_4_5			640	640_hud_numbers 61 	36 	9 	14
+num_4_6			640	640_hud_numbers 77 	36 	9 	14
+num_4_7			640	640_hud_numbers 92 	36 	9	14
+num_4_8			640	640_hud_numbers 108 	36 	9 	14
+num_4_9			640	640_hud_numbers 123 	36 	9 	14
+
+num_5_0			640	640_hud_numbers 179	7 	17 	23
+num_5_1			640	640_hud_numbers	0 	7 	13 	23
+num_5_2			640	640_hud_numbers 19 	7 	17 	23
+num_5_3			640	640_hud_numbers 39 	7 	17 	23
+num_5_4			640	640_hud_numbers 58 	7 	18 	23
+num_5_5			640	640_hud_numbers 79 	7 	17 	23
+num_5_6			640	640_hud_numbers 99	7 	17 	23
+num_5_7			640	640_hud_numbers 119 	7 	17 	23
+num_5_8			640	640_hud_numbers 139 	7 	17 	23
+num_5_9			640	640_hud_numbers 159 	7 	17 	23
+
+colon_1			640	640_hud_colon	0  	5 	1 	5
+colon_2			640	640_hud_colon	0 	15 	1 	5
+colon_3			640	640_hud_colon	0 	23 	1 	7
+colon_4			640	640_hud_colon	0 	32 	2 	8
+colon_5			640	640_hud_colon	0 	41 	2 	9
+
+//Bp - Crosshairs
+crosshair1		640	hud_crosshair1		0	0	64	64
+crosshair2		640	hud_crosshair2		0	0	64	64
+crosshair3		640	hud_crosshair3		0	0	64	64
+crosshair4		640	hud_crosshair4		0	0	64	64
+crosshair5		640	hud_crosshair5		0	0	64	64
+crosshair6		640	hud_crosshair6		0	0	64	64
+
+statxhair1		640	hud_staticxhairs1	0	0	9	13
+statxhair2		640	hud_staticxhairs1	10	0	13	13
+statxhair3		640	hud_staticxhairs1	24	0	13	17
+statxhair4		640	hud_staticxhairs1	38	0	11	13
+statxhair5		640	hud_staticxhairs1	50	0	13	13
+statxhair6		640	hud_staticxhairs1	64	0	13	13
+
+custxhair1		640	hud_staticxhairs1	32	16	29	29
+custxhair2		640	hud_staticxhairs1	0	15	31	31
+custxhair3		640	hud_xhair1		0	0	128	128

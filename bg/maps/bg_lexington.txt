@@ -1,0 +1,16 @@
+BG_LEXINGTON BY Predator and Render
+Textures by several people including BlackPanther, Pr3dator, Render
+Models by Sgt.Pepper and BlackPanther
+Story written by Predator and edited by Ben
+--------------------------------------------------------------
+
+Objectives:
+
+	Each side must push the opposition back to their starting locations
+in order to take control of Lexington.  The Field and the Hill are the most important capture area
+and therefore awards its owner with more points than any other capture areas.
+
+Special Thanks:
+
+Render - For the orignal idea, rmf, textures, and help.
+

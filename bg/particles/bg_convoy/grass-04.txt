@@ -1,0 +1,78 @@
+texture particles/grass03.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 25
+particles 11
+lod 1
+transparency 255
+
+new_particle
+texture particles/grass04.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 25
+particles 8
+lod 1
+transparency 255
+
+new_particle
+texture particles/grass05.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 25
+particles 16
+lod 1
+transparency 255
+
+new_particle
+texture particles/grass06.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 25
+particles 12
+lod 1
+transparency 255
+
+new_particle
+texture particles/grass07.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 25
+particles 18
+lod 1
+transparency 255
+
+new_particle
+texture particles/grass15.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 25
+particles 11
+lod 1
+transparency 255
+
+new_particle
+texture particles/grass16.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 25
+particles 7
+lod 1
+transparency 255
+
+new_particle
+texture particles/grass17.tga
+scale 25
+leaning_max 110
+leaning_min 70
+wave_speed 25
+particles 8
+lod 1
+transparency 255
